@@ -15,6 +15,10 @@ h1{font-size:25px;line-height:1.25;margin:.25em 0 .35em}
 .facts .k{color:var(--mut);display:inline-block;min-width:104px}
 .desc{font-size:16px}
 .note{background:#fff7ed;border:1px solid #f6c98a;color:#8a4d12;border-radius:10px;padding:10px 12px;font-size:14px;margin:1em 0}
+.vorbei{background:#eef0f2;border:1px solid #d7dbe0;color:#444;border-radius:10px;padding:10px 12px;font-size:14px;margin:1em 0}
+.past-h{font-size:17px;color:var(--mut);font-weight:600;margin:1.8em 0 .5em}
+.card.past{opacity:.7}
+.card.past .t{color:var(--mut)}
 .card{display:block;border:1px solid var(--line);border-radius:12px;padding:12px 14px;background:#fff;margin:8px 0;text-decoration:none;color:inherit}
 .card:hover{border-color:#cfcfcf}
 .card .t{font-weight:600}
