@@ -46,7 +46,7 @@
   <url><loc>https://festam.app/de-de/feste-in-abensberg/abensberger-buergerfest/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-abensberg/gillamoos/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-abensberg/abensberger-herbstmarkt/</loc><lastmod>2026-07-10</lastmod></url>
-  <url><loc>https://festam.app/de-de/feste-in-abensberg/weihnachtsmarkt-im-schlossgarten-abensberg/</loc><lastmod>2026-07-10</lastmod></url>
+  <url><loc>https://festam.app/de-de/feste-in-abensberg/niklasmarkt/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-abensberg/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-abtsgmuend/kreiselfest-zur-sonnwend/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-abtsgmuend/fischerfest-am-wanderheim/</loc><lastmod>2026-07-10</lastmod></url>
@@ -79,7 +79,7 @@
   <url><loc>https://festam.app/de-de/feste-in-ahaus/ahauser-kirmes/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-ahaus/fanfaren-flammen-feuerwerk/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-ahaus/ahauser-winterzauber/</loc><lastmod>2026-07-10</lastmod></url>
-  <url><loc>https://festam.app/de-de/feste-in-ahaus/ahauser-schlosszauber/</loc><lastmod>2026-07-10</lastmod></url>
+  <url><loc>https://festam.app/de-de/feste-in-ahaus/winterpartie-schlossweihnacht/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-ahaus/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-ahlen/ahlener-maikirmes/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-ahlen/ahlener-stadtfest/</loc><lastmod>2026-07-10</lastmod></url>
@@ -692,8 +692,8 @@
   <url><loc>https://festam.app/de-de/feste-in-bad-toelz/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-bad-urach/bad-urach-blueht-auf/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-bad-urach/bad-uracher-stadtfest/</loc><lastmod>2026-07-10</lastmod></url>
-  <url><loc>https://festam.app/de-de/feste-in-bad-urach/uracher-apfelfest-mit-bauernmarkt/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-bad-urach/herbstliche-musiktage-bad-urach/</loc><lastmod>2026-07-10</lastmod></url>
+  <url><loc>https://festam.app/de-de/feste-in-bad-urach/uracher-apfelfest-mit-bauernmarkt/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-bad-urach/bad-uracher-weihnachtsmarkt/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-bad-urach/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-bad-vilbel/burgfestspiele-bad-vilbel/</loc><lastmod>2026-07-10</lastmod></url>
@@ -887,7 +887,7 @@
   <url><loc>https://festam.app/nl-nl/evenementen-in-bergen-op-zoom/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-bergheim/summer-in-the-city/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-bergheim/schuetzenfest/</loc><lastmod>2026-07-10</lastmod></url>
-  <url><loc>https://festam.app/de-de/feste-in-bergheim/herbstmarkt-schloss-paffendorf/</loc><lastmod>2026-07-10</lastmod></url>
+  <url><loc>https://festam.app/de-de/feste-in-bergheim/schlossherbst-in-paffendorf/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-bergheim/bergheimer-hubertusmarkt/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-bergheim/bergheimer-weihnachtsmarkt/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-bergheim/</loc><lastmod>2026-07-10</lastmod></url>
@@ -2779,7 +2779,7 @@
   <url><loc>https://festam.app/de-de/feste-in-geldern/gelderner-pfingstkirmes/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-geldern/internationaler-strassenmalwettbewerb-geldern/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-geldern/herbst-und-kartoffelmarkt-pont/</loc><lastmod>2026-07-10</lastmod></url>
-  <url><loc>https://festam.app/de-de/feste-in-geldern/heiss-auf-eis-geldern/</loc><lastmod>2026-07-10</lastmod></url>
+  <url><loc>https://festam.app/de-de/feste-in-geldern/heiss-auf-eis/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-geldern/weihnachtsmarkt-auf-schloss-walbeck/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-geldern/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-gelnhausen/barbarossamarkt-gelnhausen/</loc><lastmod>2026-07-10</lastmod></url>
@@ -3494,17 +3494,17 @@
   <url><loc>https://festam.app/en-de/festivals-in-hanover/oktoberfest-hannover/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/en-de/festivals-in-hanover/weihnachtsmarkt-hannover-in-der-altstadt/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/en-de/festivals-in-hanover/</loc><lastmod>2026-07-10</lastmod></url>
-  <url><loc>https://festam.app/de-de/feste-in-hassloch/haesslocher-sommertagsumzug/</loc><lastmod>2026-07-10</lastmod></url>
-  <url><loc>https://festam.app/de-de/feste-in-hassloch/street-food-festival-hassloch/</loc><lastmod>2026-07-10</lastmod></url>
-  <url><loc>https://festam.app/de-de/feste-in-hassloch/leisboehler-weintage-und-maikerwe/</loc><lastmod>2026-07-10</lastmod></url>
-  <url><loc>https://festam.app/de-de/feste-in-hassloch/wein-und-jazz-hassloch/</loc><lastmod>2026-07-10</lastmod></url>
-  <url><loc>https://festam.app/de-de/feste-in-hassloch/andechser-bierfest-hassloch/</loc><lastmod>2026-07-10</lastmod></url>
-  <url><loc>https://festam.app/de-de/feste-in-hassloch/haesslocher-weihnachtsmarkt-der-1000-lichter/</loc><lastmod>2026-07-10</lastmod></url>
-  <url><loc>https://festam.app/de-de/feste-in-hassloch/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-havelberg/havelberger-bootskorso/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-havelberg/havelberger-pferdemarkt/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-havelberg/havelberger-weihnachtsmarkt/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-havelberg/</loc><lastmod>2026-07-10</lastmod></url>
+  <url><loc>https://festam.app/de-de/feste-in-hassloch/hasslocher-sommertagsumzug/</loc><lastmod>2026-07-10</lastmod></url>
+  <url><loc>https://festam.app/de-de/feste-in-hassloch/street-food-festival-hassloch/</loc><lastmod>2026-07-10</lastmod></url>
+  <url><loc>https://festam.app/de-de/feste-in-hassloch/leisboehler-weintage-und-maikerwe/</loc><lastmod>2026-07-10</lastmod></url>
+  <url><loc>https://festam.app/de-de/feste-in-hassloch/wein-und-jazz-hassloch/</loc><lastmod>2026-07-10</lastmod></url>
+  <url><loc>https://festam.app/de-de/feste-in-hassloch/andechser-bierfest-hassloch/</loc><lastmod>2026-07-10</lastmod></url>
+  <url><loc>https://festam.app/de-de/feste-in-hassloch/hasslocher-weihnachtsmarkt-der-1000-lichter/</loc><lastmod>2026-07-10</lastmod></url>
+  <url><loc>https://festam.app/de-de/feste-in-hassloch/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-hechingen/irma-west-kinder-und-heimatfest/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-hechingen/koeniglicher-winterzauber-burg-hohenzollern/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-hechingen/lichterglanz-hechingen/</loc><lastmod>2026-07-10</lastmod></url>
@@ -4015,7 +4015,7 @@
   <url><loc>https://festam.app/de-de/feste-in-kempen/kempener-sommerkirmes/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-kempen/kempener-herbstfest/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-kempen/hubertusmarkt-kempen/</loc><lastmod>2026-07-10</lastmod></url>
-  <url><loc>https://festam.app/de-de/feste-in-kempen/kempener-weihnachtsmarkt/</loc><lastmod>2026-07-10</lastmod></url>
+  <url><loc>https://festam.app/de-de/feste-in-kempen/markt-der-sterne/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-kempen/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-kempten/stadtfest-kempten/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-kempten/allgaeuer-festwoche/</loc><lastmod>2026-07-10</lastmod></url>
@@ -4028,8 +4028,8 @@
   <url><loc>https://festam.app/de-de/feste-in-kerpen/kerpener-weihnachtsmarkt/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-kerpen/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-kevelaer/wallfahrt-kevelaer/</loc><lastmod>2026-07-10</lastmod></url>
-  <url><loc>https://festam.app/de-de/feste-in-kevelaer/kevelaerer-lichterprozession/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-kevelaer/kevelaerer-himmelfahrtskirmes/</loc><lastmod>2026-07-10</lastmod></url>
+  <url><loc>https://festam.app/de-de/feste-in-kevelaer/kevelaerer-lichterprozession/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-kevelaer/kevelaerer-advents-und-krippenmarkt/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-kevelaer/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-kiel/kieler-woche/</loc><lastmod>2026-07-10</lastmod></url>
@@ -5120,7 +5120,6 @@
   <url><loc>https://festam.app/de-de/feste-in-metzingen/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-michelstadt/michelstaedter-bienenmarkt/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-michelstadt/weinbrunnenfest/</loc><lastmod>2026-07-10</lastmod></url>
-  <url><loc>https://festam.app/de-de/feste-in-michelstadt/wendelinusmarkt/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-michelstadt/michelstaedter-weihnachtsmarkt/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-michelstadt/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-nl/feste-in-middelburg/keti-koti-festival-und-commemoration/</loc><lastmod>2026-07-10</lastmod></url>
@@ -5646,7 +5645,7 @@
   <url><loc>https://festam.app/nl-nl/evenementen-in-nijmegen/kunstnacht-nijmegen/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/nl-nl/evenementen-in-nijmegen/nijmeegse-winterweken/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/nl-nl/evenementen-in-nijmegen/</loc><lastmod>2026-07-10</lastmod></url>
-  <url><loc>https://festam.app/de-de/feste-in-norden/wikingerfest/</loc><lastmod>2026-07-10</lastmod></url>
+  <url><loc>https://festam.app/de-de/feste-in-norden/wikingerfest-am-meer/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-norden/norder-sommermarkt/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-norden/norder-sommerfest/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-norden/beestmarkt/</loc><lastmod>2026-07-10</lastmod></url>
@@ -5707,7 +5706,6 @@
   <url><loc>https://festam.app/fr-ch/fetes-a-nyon/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-noerdlingen/stabenfest/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-noerdlingen/noerdlinger-mess/</loc><lastmod>2026-07-10</lastmod></url>
-  <url><loc>https://festam.app/de-de/feste-in-noerdlingen/scharlachrennen/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-noerdlingen/romantischer-weihnachtsmarkt-noerdlingen/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-noerdlingen/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-nuernberg/kirchweih-grossreuth-hinter-der-veste/</loc><lastmod>2026-07-10</lastmod></url>
@@ -6139,8 +6137,8 @@
   <url><loc>https://festam.app/de-de/feste-in-rheine/emszauber-winter-an-der-ems/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-rheine/nikolausmarkt/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-rheine/</loc><lastmod>2026-07-10</lastmod></url>
-  <url><loc>https://festam.app/de-de/feste-in-ribnitz-damgarten/ribnitzer-hafenfest/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-ribnitz-damgarten/swing-breeze-und-oldtimertreffen/</loc><lastmod>2026-07-10</lastmod></url>
+  <url><loc>https://festam.app/de-de/feste-in-ribnitz-damgarten/ribnitzer-hafenfest/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-ribnitz-damgarten/ribnitzer-weihnachtsmarkt/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-ribnitz-damgarten/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/en-us/festivals-in-richmond/st-benedict-oktoberfest/</loc><lastmod>2026-07-10</lastmod></url>
@@ -6437,8 +6435,8 @@
   <url><loc>https://festam.app/de-de/feste-in-schleswig/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-schlitz/schlitzer-burgenfruehling/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-schlitz/schlitz-feiert/</loc><lastmod>2026-07-10</lastmod></url>
-  <url><loc>https://festam.app/de-de/feste-in-schlitz/schlitzer-burgenweihnacht/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-schlitz/schlitzer-runkelruebenfest/</loc><lastmod>2026-07-10</lastmod></url>
+  <url><loc>https://festam.app/de-de/feste-in-schlitz/schlitzer-burgenweihnacht/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-schlitz/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-schmalkalden/schmalkalder-weinfest/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-schmalkalden/schmalkalder-toepfermarkt/</loc><lastmod>2026-07-10</lastmod></url>
@@ -6646,7 +6644,6 @@
   <url><loc>https://festam.app/de-de/feste-in-soest/soester-altstadtfruehling/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-soest/soester-altstadtzauber/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-soest/soester-winzermarkt/</loc><lastmod>2026-07-10</lastmod></url>
-  <url><loc>https://festam.app/de-de/feste-in-soest/gaudium-soester-mittelaltertage/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-soest/boerdebauernmarkt/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-soest/allerheiligenkirmes/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-soest/soester-weihnachtsmarkt/</loc><lastmod>2026-07-10</lastmod></url>
@@ -6677,7 +6674,6 @@
   <url><loc>https://festam.app/de-ch/feste-in-solothurn/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-soltau/soltauer-stadtfest/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-soltau/soltauer-schuetzenfest/</loc><lastmod>2026-07-10</lastmod></url>
-  <url><loc>https://festam.app/de-de/feste-in-soltau/soltauer-lichterfest/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-soltau/heidewollefest-soltau/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-soltau/soltauer-weihnachtsmarkt/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-soltau/</loc><lastmod>2026-07-10</lastmod></url>
@@ -6753,7 +6749,7 @@
   <url><loc>https://festam.app/de-de/feste-in-st-wendel/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-stade/hanse-song-festival-stade/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-stade/stader-altstadtfest/</loc><lastmod>2026-07-10</lastmod></url>
-  <url><loc>https://festam.app/de-de/feste-in-stade/stader-weinfest/</loc><lastmod>2026-07-10</lastmod></url>
+  <url><loc>https://festam.app/de-de/feste-in-stade/stader-winzerfest/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-stade/mamf-das-festival-in-stade/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-stade/stader-weihnachtsmarkt/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-stade/</loc><lastmod>2026-07-10</lastmod></url>
@@ -6845,7 +6841,7 @@
   <url><loc>https://festam.app/de-de/feste-in-templin/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-teterow/teterower-bergringrennen/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-teterow/teterower-hechtfest/</loc><lastmod>2026-07-10</lastmod></url>
-  <url><loc>https://festam.app/de-de/feste-in-teterow/teterower-toepfermarkt/</loc><lastmod>2026-07-10</lastmod></url>
+  <url><loc>https://festam.app/de-de/feste-in-teterow/central-mecklenburgischer-toepfermarkt/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-teterow/teterower-adventsleuchten/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-teterow/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-thale/walpurgisnacht-am-hexentanzplatz/</loc><lastmod>2026-07-10</lastmod></url>
@@ -7096,7 +7092,7 @@
   <url><loc>https://festam.app/en-ca/festivals-in-vancouver/harvest-haus-vancouver-oktoberfest/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/en-ca/festivals-in-vancouver/vancouver-christmas-market/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/en-ca/festivals-in-vancouver/</loc><lastmod>2026-07-10</lastmod></url>
-  <url><loc>https://festam.app/de-de/feste-in-varel/vareler-kunsthandwerkermarkt/</loc><lastmod>2026-07-10</lastmod></url>
+  <url><loc>https://festam.app/de-de/feste-in-varel/toepfermarkt-am-vareler-hafen/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-varel/vareler-kramermarkt/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-varel/vareler-adventsmarkt/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-varel/</loc><lastmod>2026-07-10</lastmod></url>
@@ -7301,9 +7297,9 @@
   <url><loc>https://festam.app/de-de/feste-in-warendorf/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-warstein/warsteiner-buergerschuetzenfest/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-warstein/750-jahre-warstein-jubilaeumsfest/</loc><lastmod>2026-07-10</lastmod></url>
-  <url><loc>https://festam.app/de-de/feste-in-warstein/kulturherbst-im-moehnetal/</loc><lastmod>2026-07-10</lastmod></url>
+  <url><loc>https://festam.app/de-de/feste-in-warstein/kulturherbst-moehnetal/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-warstein/hotfootrun-warstein/</loc><lastmod>2026-07-10</lastmod></url>
-  <url><loc>https://festam.app/de-de/feste-in-warstein/weihnachtsmarkt-warstein-belecke/</loc><lastmod>2026-07-10</lastmod></url>
+  <url><loc>https://festam.app/de-de/feste-in-warstein/weihnachtsmarkt-am-haus-welschenbeck/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/de-de/feste-in-warstein/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/en-us/festivals-in-washington/oktoberfest-at-the-wharf-dc/</loc><lastmod>2026-07-10</lastmod></url>
   <url><loc>https://festam.app/en-us/festivals-in-washington/</loc><lastmod>2026-07-10</lastmod></url>
