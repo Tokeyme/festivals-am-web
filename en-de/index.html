@@ -29,6 +29,12 @@
 <main>
 <h1>Festivals &amp; events in Germany 2026</h1>
 <p class="meta">Funfairs, Christmas markets, wine and town festivals near you – sorted by town.</p>
+<div class="pick">
+  <label class="pf"><span>Country</span><select id="pl"><option value="en-at">Austria</option><option value="en-ca">Canada</option><option value="en-de" selected>Germany</option><option value="en-nl">Netherlands</option><option value="en-ch">Switzerland</option><option value="en-gb">United Kingdom</option><option value="en-us">United States</option></select></label>
+  <label class="pf"><span>Town</span><input id="ps" type="search" placeholder="Search town …" autocomplete="off"></label>
+  <button id="pg" type="button" class="pb">Use my location</button>
+  <span id="pm" class="pm" role="status"></span>
+</div>
 <a class="card" href="festivals-in-aachen/index.html">
   <div class="t">Festivals in Aachen</div>
   <div class="d">14 upcoming events</div>
@@ -210,6 +216,37 @@
   <div class="t">Festivals in Würzburg</div>
   <div class="d">9 upcoming events</div>
 </a>
+<script>
+(function(){
+var NOHIT='No town found.',WAIT='Detecting location …',FAIL='Location unavailable – please pick a town manually.';
+var sel=document.getElementById('pl'),inp=document.getElementById('ps'),
+btn=document.getElementById('pg'),msg=document.getElementById('pm');
+var cards=[].slice.call(document.querySelectorAll('a.card'));
+if(sel)sel.addEventListener('change',function(){location.href='/'+sel.value+'/';});
+if(inp)inp.addEventListener('input',function(){
+var q=inp.value.trim().toLowerCase(),n=0;
+for(var i=0;i<cards.length;i++){
+var hit=!q||cards[i].textContent.toLowerCase().indexOf(q)>=0;
+cards[i].style.display=hit?'':'none';if(hit)n++;
+}
+msg.textContent=(q&&!n)?NOHIT:'';
+});
+if(btn)btn.addEventListener('click',function(){
+if(!navigator.geolocation){msg.textContent=FAIL;return;}
+msg.textContent=WAIT;btn.disabled=true;
+navigator.geolocation.getCurrentPosition(function(p){
+fetch('/orte-en.json').then(function(r){return r.json();}).then(function(l){
+var la=p.coords.latitude,lo=p.coords.longitude,b=null,bd=1e18;
+for(var i=0;i<l.length;i++){
+var dy=(l[i][1]-la)*111.2,dx=(l[i][2]-lo)*111.2*Math.cos(la*Math.PI/180);
+var d=dy*dy+dx*dx;if(d<bd){bd=d;b=l[i];}
+}
+if(b){location.href=b[0];}else{msg.textContent=FAIL;btn.disabled=false;}
+}).catch(function(){msg.textContent=FAIL;btn.disabled=false;});
+},function(){msg.textContent=FAIL;btn.disabled=false;},{timeout:10000,maximumAge:600000});
+});
+})();
+</script>
 </main>
 <footer>Fest AM · Festivals &amp; events · Dates without guarantee, please check with the organiser. · Anonymous, cookieless analytics (GoatCounter) – no cookies, no personal data.</footer>
 <script data-goatcounter="https://amapps.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>

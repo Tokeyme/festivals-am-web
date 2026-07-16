@@ -30,6 +30,11 @@
 <main>
 <h1>Evenementen in Nederland 2026</h1>
 <p class="meta">Volksfeesten, kerstmarkten, muziek- en stadsfeesten bij jou in de buurt – gesorteerd op plaats.</p>
+<div class="pick">
+  <label class="pf"><span>Plaats</span><input id="ps" type="search" placeholder="Plaats zoeken …" autocomplete="off"></label>
+  <button id="pg" type="button" class="pb">Mijn locatie gebruiken</button>
+  <span id="pm" class="pm" role="status"></span>
+</div>
 <a class="card" href="evenementen-in-alkmaar/index.html">
   <div class="t">Evenementen in Alkmaar</div>
   <div class="d">19 aankomende evenementen</div>
@@ -56,7 +61,7 @@
   <div class="d">14 aankomende evenementen</div>
 </a><a class="card" href="evenementen-in-arnhem/index.html">
   <div class="t">Evenementen in Arnhem</div>
-  <div class="d">20 aankomende evenementen</div>
+  <div class="d">19 aankomende evenementen</div>
 </a><a class="card" href="evenementen-in-assen/index.html">
   <div class="t">Evenementen in Assen</div>
   <div class="d">14 aankomende evenementen</div>
@@ -158,7 +163,7 @@
   <div class="d">6 aankomende evenementen</div>
 </a><a class="card" href="evenementen-in-helmond/index.html">
   <div class="t">Evenementen in Helmond</div>
-  <div class="d">20 aankomende evenementen</div>
+  <div class="d">19 aankomende evenementen</div>
 </a><a class="card" href="evenementen-in-hengelo/index.html">
   <div class="t">Evenementen in Hengelo</div>
   <div class="d">6 aankomende evenementen</div>
@@ -340,6 +345,37 @@
   <div class="t">Evenementen in s-Hertogenbosch</div>
   <div class="d">21 aankomende evenementen</div>
 </a>
+<script>
+(function(){
+var NOHIT='Geen plaats gevonden.',WAIT='Locatie wordt bepaald …',FAIL='Locatie niet beschikbaar – kies je plaats handmatig.';
+var sel=document.getElementById('pl'),inp=document.getElementById('ps'),
+btn=document.getElementById('pg'),msg=document.getElementById('pm');
+var cards=[].slice.call(document.querySelectorAll('a.card'));
+if(sel)sel.addEventListener('change',function(){location.href='/'+sel.value+'/';});
+if(inp)inp.addEventListener('input',function(){
+var q=inp.value.trim().toLowerCase(),n=0;
+for(var i=0;i<cards.length;i++){
+var hit=!q||cards[i].textContent.toLowerCase().indexOf(q)>=0;
+cards[i].style.display=hit?'':'none';if(hit)n++;
+}
+msg.textContent=(q&&!n)?NOHIT:'';
+});
+if(btn)btn.addEventListener('click',function(){
+if(!navigator.geolocation){msg.textContent=FAIL;return;}
+msg.textContent=WAIT;btn.disabled=true;
+navigator.geolocation.getCurrentPosition(function(p){
+fetch('/orte-nl.json').then(function(r){return r.json();}).then(function(l){
+var la=p.coords.latitude,lo=p.coords.longitude,b=null,bd=1e18;
+for(var i=0;i<l.length;i++){
+var dy=(l[i][1]-la)*111.2,dx=(l[i][2]-lo)*111.2*Math.cos(la*Math.PI/180);
+var d=dy*dy+dx*dx;if(d<bd){bd=d;b=l[i];}
+}
+if(b){location.href=b[0];}else{msg.textContent=FAIL;btn.disabled=false;}
+}).catch(function(){msg.textContent=FAIL;btn.disabled=false;});
+},function(){msg.textContent=FAIL;btn.disabled=false;},{timeout:10000,maximumAge:600000});
+});
+})();
+</script>
 </main>
 <footer>Fest AM · Evenementen · Data onder voorbehoud, controleer bij de organisator. · Anonieme, cookieloze bezoekersmeting (GoatCounter) – geen cookies, geen persoonsgegevens.</footer>
 <script data-goatcounter="https://amapps.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
