@@ -32,60 +32,77 @@
 <div class="pick">
   <label class="pf"><span>Country</span><select id="pl"><option value="en-at">Austria</option><option value="en-ca" selected>Canada</option><option value="en-de">Germany</option><option value="en-nl">Netherlands</option><option value="en-ch">Switzerland</option><option value="en-gb">United Kingdom</option><option value="en-us">United States</option></select></label>
   <label class="pf"><span>Town</span><input id="ps" type="search" placeholder="Search town …" autocomplete="off"></label>
+  <label class="pf pf-s"><span>Radius</span><select id="pr"><option value="10">10 km</option><option value="25" selected>25 km</option><option value="50">50 km</option><option value="100">100 km</option></select></label>
   <button id="pg" type="button" class="pb">Use my location</button>
+  <button id="pa" type="button" class="pb pb-2" hidden>Show all towns</button>
   <span id="pm" class="pm" role="status"></span>
 </div>
-<a class="card" href="festivals-in-banff/index.html">
+<a class="card" data-o="festivals-in-banff" href="festivals-in-banff/index.html">
   <div class="t">Festivals in Banff</div>
   <div class="d">1 upcoming event</div>
-</a><a class="card" href="festivals-in-calgary/index.html">
+</a><a class="card" data-o="festivals-in-calgary" href="festivals-in-calgary/index.html">
   <div class="t">Festivals in Calgary</div>
   <div class="d">2 upcoming events</div>
-</a><a class="card" href="festivals-in-edmonton/index.html">
+</a><a class="card" data-o="festivals-in-edmonton" href="festivals-in-edmonton/index.html">
   <div class="t">Festivals in Edmonton</div>
   <div class="d">2 upcoming events</div>
-</a><a class="card" href="festivals-in-halifax/index.html">
+</a><a class="card" data-o="festivals-in-halifax" href="festivals-in-halifax/index.html">
   <div class="t">Festivals in Halifax</div>
   <div class="d">2 upcoming events</div>
-</a><a class="card" href="festivals-in-kitchener/index.html">
+</a><a class="card" data-o="festivals-in-kitchener" href="festivals-in-kitchener/index.html">
   <div class="t">Festivals in Kitchener</div>
   <div class="d">2 upcoming events</div>
-</a><a class="card" href="festivals-in-london/index.html">
+</a><a class="card" data-o="festivals-in-london" href="festivals-in-london/index.html">
   <div class="t">Festivals in London</div>
   <div class="d">1 upcoming event</div>
-</a><a class="card" href="festivals-in-niagara-falls/index.html">
+</a><a class="card" data-o="festivals-in-niagara-falls" href="festivals-in-niagara-falls/index.html">
   <div class="t">Festivals in Niagara Falls</div>
   <div class="d">1 upcoming event</div>
-</a><a class="card" href="festivals-in-ottawa/index.html">
+</a><a class="card" data-o="festivals-in-ottawa" href="festivals-in-ottawa/index.html">
   <div class="t">Festivals in Ottawa</div>
   <div class="d">2 upcoming events</div>
-</a><a class="card" href="festivals-in-saint-john/index.html">
+</a><a class="card" data-o="festivals-in-saint-john" href="festivals-in-saint-john/index.html">
   <div class="t">Festivals in Saint John</div>
   <div class="d">1 upcoming event</div>
-</a><a class="card" href="festivals-in-saskatoon/index.html">
+</a><a class="card" data-o="festivals-in-saskatoon" href="festivals-in-saskatoon/index.html">
   <div class="t">Festivals in Saskatoon</div>
   <div class="d">1 upcoming event</div>
-</a><a class="card" href="festivals-in-toronto/index.html">
+</a><a class="card" data-o="festivals-in-toronto" href="festivals-in-toronto/index.html">
   <div class="t">Festivals in Toronto</div>
   <div class="d">12 upcoming events</div>
-</a><a class="card" href="festivals-in-vancouver/index.html">
+</a><a class="card" data-o="festivals-in-vancouver" href="festivals-in-vancouver/index.html">
   <div class="t">Festivals in Vancouver</div>
   <div class="d">2 upcoming events</div>
-</a><a class="card" href="festivals-in-victoria/index.html">
+</a><a class="card" data-o="festivals-in-victoria" href="festivals-in-victoria/index.html">
   <div class="t">Festivals in Victoria</div>
   <div class="d">2 upcoming events</div>
-</a><a class="card" href="festivals-in-winnipeg/index.html">
+</a><a class="card" data-o="festivals-in-winnipeg" href="festivals-in-winnipeg/index.html">
   <div class="t">Festivals in Winnipeg</div>
   <div class="d">2 upcoming events</div>
 </a>
 <script>
 (function(){
-var NOHIT='No town found.',WAIT='Detecting location …',FAIL='Location unavailable – please pick a town manually.';
+var NOHIT='No town found.',WAIT='Detecting location …',FAIL='Location unavailable – please pick a town manually.',
+TREF='{n} towns within {km} km',TREF1='1 town within {km} km',
+KEIN='No town within the selected radius – showing the nearest ones.',DENIED='Location access denied – please choose a town manually.',
+UNAVAIL='Your location could not be determined. On computers without Wi-Fi positioning this is common – please choose a town manually.',TMOUT='Determining your location took too long – please try again.',
+DATA='The list of towns could not be loaded – please reload the page.',UNSEC='Location detection only works over a secure connection – please choose a town manually.';
 var sel=document.getElementById('pl'),inp=document.getElementById('ps'),
-btn=document.getElementById('pg'),msg=document.getElementById('pm');
+btn=document.getElementById('pg'),msg=document.getElementById('pm'),
+rad=document.getElementById('pr'),alle=document.getElementById('pa');
 var cards=[].slice.call(document.querySelectorAll('a.card'));
+var orig=cards.slice(),eltern=cards.length?cards[0].parentNode:null,geoAn=false;
+function dz(c){return c.querySelector('.d');}
+function zurueck(){
+for(var i=0;i<orig.length;i++){var c=orig[i],d=dz(c);
+if(d&&d.getAttribute('data-d0')!==null){d.textContent=d.getAttribute('data-d0');d.removeAttribute('data-d0');}
+c.style.display='';if(eltern)eltern.appendChild(c);}
+geoAn=false;if(alle)alle.hidden=true;msg.textContent='';
+}
+if(alle)alle.addEventListener('click',zurueck);
 if(sel)sel.addEventListener('change',function(){location.href='/'+sel.value+'/';});
 if(inp)inp.addEventListener('input',function(){
+if(geoAn)zurueck();
 var q=inp.value.trim().toLowerCase(),n=0;
 for(var i=0;i<cards.length;i++){
 var hit=!q||cards[i].textContent.toLowerCase().indexOf(q)>=0;
@@ -94,23 +111,54 @@ cards[i].style.display=hit?'':'none';if(hit)n++;
 msg.textContent=(q&&!n)?NOHIT:'';
 });
 if(btn)btn.addEventListener('click',function(){
+// Ohne sicheren Kontext (HTTPS oder localhost) verweigern Browser die Ortung.
+// Safari meldet dann PERMISSION_DENIED, ohne ueberhaupt zu fragen - die
+// Meldung wuerde dem Nutzer eine Ablehnung unterstellen, die er nie
+// ausgesprochen hat. Live ist die Seite HTTPS; das greift beim Testen ueber
+// eine LAN-Adresse und auf lokalen Kopien.
+if(window.isSecureContext===false){msg.textContent=UNSEC;return;}
 if(!navigator.geolocation){msg.textContent=FAIL;return;}
 msg.textContent=WAIT;btn.disabled=true;
 navigator.geolocation.getCurrentPosition(function(p){
 fetch('/orte-en.json').then(function(r){return r.json();}).then(function(l){
-var la=p.coords.latitude,lo=p.coords.longitude,b=null,bd=1e18;
-for(var i=0;i<l.length;i++){
-var dy=(l[i][1]-la)*111.2,dx=(l[i][2]-lo)*111.2*Math.cos(la*Math.PI/180);
-var d=dy*dy+dx*dx;if(d<bd){bd=d;b=l[i];}
+if(inp)inp.value='';
+var la=p.coords.latitude,lo=p.coords.longitude,km=parseInt(rad?rad.value:'25',10);
+var pos={};for(var i=0;i<l.length;i++){if(l[i][3])pos[l[i][3]]=[l[i][1],l[i][2]];}
+var mit=[];
+for(var i=0;i<cards.length;i++){
+var o=cards[i].getAttribute('data-o'),c=o?pos[o]:null;if(!c)continue;
+var dy=(c[0]-la)*111.2,dx=(c[1]-lo)*111.2*Math.cos(la*Math.PI/180);
+mit.push({c:cards[i],d:Math.sqrt(dy*dy+dx*dx)});
 }
-if(b){location.href=b[0];}else{msg.textContent=FAIL;btn.disabled=false;}
-}).catch(function(){msg.textContent=FAIL;btn.disabled=false;});
-},function(){msg.textContent=FAIL;btn.disabled=false;},{timeout:10000,maximumAge:600000});
+mit.sort(function(a,b){return a.d-b.d;});
+var drin=[],weit=false;
+for(var i=0;i<mit.length;i++)if(mit[i].d<=km)drin.push(mit[i]);
+if(!drin.length){drin=mit.slice(0,10);weit=true;}
+if(!drin.length){msg.textContent=FAIL;btn.disabled=false;return;}
+for(var i=0;i<cards.length;i++)cards[i].style.display='none';
+for(var i=0;i<drin.length;i++){
+var c=drin[i].c,d=dz(c);
+if(d){if(d.getAttribute('data-d0')===null)d.setAttribute('data-d0',d.textContent);
+d.textContent=Math.round(drin[i].d)+' km \u00b7 '+d.getAttribute('data-d0');}
+c.style.display='';if(eltern)eltern.appendChild(c);
+}
+geoAn=true;if(alle)alle.hidden=false;btn.disabled=false;
+msg.textContent=weit?KEIN:(drin.length===1?TREF1:TREF.replace('{n}',drin.length)).replace('{km}',km);
+}).catch(function(e){if(window.console)console.warn('orte.json',e);msg.textContent=DATA;btn.disabled=false;});
+},function(e){
+// Vier klar unterscheidbare Ursachen statt einer Sammelmeldung: Ablehnung,
+// "Position nicht ermittelbar" (an Desktop-Rechnern ohne WLAN-Ortung der
+// Normalfall), Zeitueberschreitung, und getrennt davon das Nachladen der
+// Ortsdatei. Sonst sucht man den Fehler an der falschen Stelle.
+if(window.console)console.warn('Geolocation',e&&e.code,e&&e.message);
+msg.textContent=!e?FAIL:(e.code===1?DENIED:(e.code===3?TMOUT:UNAVAIL));
+btn.disabled=false;
+},{timeout:20000,maximumAge:600000});
 });
 })();
 </script>
 </main>
-<footer>Fest AM · Festivals &amp; events · Dates without guarantee, please check with the organiser. · Anonymous, cookieless analytics (GoatCounter) – no cookies, no personal data.</footer>
+<footer>Fest AM · Festivals &amp; events · Dates without guarantee, please check with the organiser. · Cookieless analytics (GoatCounter) – no cookies, no IP storage. · <a href="imprint/index.html">Legal notice</a> · <a href="privacy/index.html">Privacy policy</a></footer>
 <script data-goatcounter="https://amapps.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 </body>
 </html>

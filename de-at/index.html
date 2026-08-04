@@ -32,159 +32,176 @@
 <div class="pick">
   <label class="pf"><span>Land</span><select id="pl"><option value="de-de">Deutschland</option><option value="de-nl">Niederlande</option><option value="de-ch">Schweiz</option><option value="de-at" selected>Österreich</option></select></label>
   <label class="pf"><span>Stadt</span><input id="ps" type="search" placeholder="Stadt suchen …" autocomplete="off"></label>
+  <label class="pf pf-s"><span>Umkreis</span><select id="pr"><option value="10">10 km</option><option value="25" selected>25 km</option><option value="50">50 km</option><option value="100">100 km</option></select></label>
   <button id="pg" type="button" class="pb">Meinen Standort verwenden</button>
+  <button id="pa" type="button" class="pb pb-2" hidden>Alle Orte zeigen</button>
   <span id="pm" class="pm" role="status"></span>
 </div>
-<a class="card" href="feste-in-amstetten/index.html">
+<a class="card" data-o="feste-in-amstetten" href="feste-in-amstetten/index.html">
   <div class="t">Feste in Amstetten</div>
   <div class="d">4 kommende Veranstaltungen</div>
-</a><a class="card" href="feste-in-bad-gastein/index.html">
+</a><a class="card" data-o="feste-in-bad-gastein" href="feste-in-bad-gastein/index.html">
   <div class="t">Feste in Bad Gastein</div>
   <div class="d">5 kommende Veranstaltungen</div>
-</a><a class="card" href="feste-in-bad-ischl/index.html">
+</a><a class="card" data-o="feste-in-bad-ischl" href="feste-in-bad-ischl/index.html">
   <div class="t">Feste in Bad Ischl</div>
   <div class="d">10 kommende Veranstaltungen</div>
-</a><a class="card" href="feste-in-baden-bei-wien/index.html">
+</a><a class="card" data-o="feste-in-baden-bei-wien" href="feste-in-baden-bei-wien/index.html">
   <div class="t">Feste in Baden bei Wien</div>
   <div class="d">12 kommende Veranstaltungen</div>
-</a><a class="card" href="feste-in-bludenz/index.html">
+</a><a class="card" data-o="feste-in-bludenz" href="feste-in-bludenz/index.html">
   <div class="t">Feste in Bludenz</div>
   <div class="d">12 kommende Veranstaltungen</div>
-</a><a class="card" href="feste-in-bregenz/index.html">
+</a><a class="card" data-o="feste-in-bregenz" href="feste-in-bregenz/index.html">
   <div class="t">Feste in Bregenz</div>
   <div class="d">6 kommende Veranstaltungen</div>
-</a><a class="card" href="feste-in-bruck-an-der-mur/index.html">
+</a><a class="card" data-o="feste-in-bruck-an-der-mur" href="feste-in-bruck-an-der-mur/index.html">
   <div class="t">Feste in Bruck an der Mur</div>
   <div class="d">5 kommende Veranstaltungen</div>
-</a><a class="card" href="feste-in-dornbirn/index.html">
+</a><a class="card" data-o="feste-in-dornbirn" href="feste-in-dornbirn/index.html">
   <div class="t">Feste in Dornbirn</div>
   <div class="d">6 kommende Veranstaltungen</div>
-</a><a class="card" href="feste-in-eisenstadt/index.html">
+</a><a class="card" data-o="feste-in-eisenstadt" href="feste-in-eisenstadt/index.html">
   <div class="t">Feste in Eisenstadt</div>
   <div class="d">6 kommende Veranstaltungen</div>
-</a><a class="card" href="feste-in-feldkirch/index.html">
+</a><a class="card" data-o="feste-in-feldkirch" href="feste-in-feldkirch/index.html">
   <div class="t">Feste in Feldkirch</div>
   <div class="d">5 kommende Veranstaltungen</div>
-</a><a class="card" href="feste-in-gmunden/index.html">
+</a><a class="card" data-o="feste-in-gmunden" href="feste-in-gmunden/index.html">
   <div class="t">Feste in Gmunden</div>
   <div class="d">4 kommende Veranstaltungen</div>
-</a><a class="card" href="feste-in-graz/index.html">
+</a><a class="card" data-o="feste-in-graz" href="feste-in-graz/index.html">
   <div class="t">Feste in Graz</div>
   <div class="d">30 kommende Veranstaltungen</div>
-</a><a class="card" href="feste-in-hall-in-tirol/index.html">
+</a><a class="card" data-o="feste-in-hall-in-tirol" href="feste-in-hall-in-tirol/index.html">
   <div class="t">Feste in Hall in Tirol</div>
   <div class="d">6 kommende Veranstaltungen</div>
-</a><a class="card" href="feste-in-hallein/index.html">
+</a><a class="card" data-o="feste-in-hallein" href="feste-in-hallein/index.html">
   <div class="t">Feste in Hallein</div>
   <div class="d">11 kommende Veranstaltungen</div>
-</a><a class="card" href="feste-in-hippach/index.html">
+</a><a class="card" data-o="feste-in-hippach" href="feste-in-hippach/index.html">
   <div class="t">Feste in Hippach</div>
   <div class="d">nur vergangene Feste</div>
-</a><a class="card" href="feste-in-innsbruck/index.html">
+</a><a class="card" data-o="feste-in-innsbruck" href="feste-in-innsbruck/index.html">
   <div class="t">Feste in Innsbruck</div>
   <div class="d">20 kommende Veranstaltungen</div>
-</a><a class="card" href="feste-in-ischgl/index.html">
+</a><a class="card" data-o="feste-in-ischgl" href="feste-in-ischgl/index.html">
   <div class="t">Feste in Ischgl</div>
   <div class="d">12 kommende Veranstaltungen</div>
-</a><a class="card" href="feste-in-kapfenberg/index.html">
+</a><a class="card" data-o="feste-in-kapfenberg" href="feste-in-kapfenberg/index.html">
   <div class="t">Feste in Kapfenberg</div>
   <div class="d">3 kommende Veranstaltungen</div>
-</a><a class="card" href="feste-in-kitzbuehel/index.html">
+</a><a class="card" data-o="feste-in-kitzbuehel" href="feste-in-kitzbuehel/index.html">
   <div class="t">Feste in Kitzbühel</div>
   <div class="d">14 kommende Veranstaltungen</div>
-</a><a class="card" href="feste-in-klagenfurt/index.html">
+</a><a class="card" data-o="feste-in-klagenfurt" href="feste-in-klagenfurt/index.html">
   <div class="t">Feste in Klagenfurt</div>
   <div class="d">17 kommende Veranstaltungen</div>
-</a><a class="card" href="feste-in-klosterneuburg/index.html">
+</a><a class="card" data-o="feste-in-klosterneuburg" href="feste-in-klosterneuburg/index.html">
   <div class="t">Feste in Klosterneuburg</div>
   <div class="d">9 kommende Veranstaltungen</div>
-</a><a class="card" href="feste-in-krems-an-der-donau/index.html">
+</a><a class="card" data-o="feste-in-krems-an-der-donau" href="feste-in-krems-an-der-donau/index.html">
   <div class="t">Feste in Krems an der Donau</div>
   <div class="d">7 kommende Veranstaltungen</div>
-</a><a class="card" href="feste-in-kufstein/index.html">
+</a><a class="card" data-o="feste-in-kufstein" href="feste-in-kufstein/index.html">
   <div class="t">Feste in Kufstein</div>
   <div class="d">9 kommende Veranstaltungen</div>
-</a><a class="card" href="feste-in-leoben/index.html">
+</a><a class="card" data-o="feste-in-leoben" href="feste-in-leoben/index.html">
   <div class="t">Feste in Leoben</div>
   <div class="d">6 kommende Veranstaltungen</div>
-</a><a class="card" href="feste-in-leonding/index.html">
+</a><a class="card" data-o="feste-in-leonding" href="feste-in-leonding/index.html">
   <div class="t">Feste in Leonding</div>
   <div class="d">6 kommende Veranstaltungen</div>
-</a><a class="card" href="feste-in-lienz/index.html">
+</a><a class="card" data-o="feste-in-lienz" href="feste-in-lienz/index.html">
   <div class="t">Feste in Lienz</div>
   <div class="d">8 kommende Veranstaltungen</div>
-</a><a class="card" href="feste-in-linz/index.html">
+</a><a class="card" data-o="feste-in-linz" href="feste-in-linz/index.html">
   <div class="t">Feste in Linz</div>
   <div class="d">22 kommende Veranstaltungen</div>
-</a><a class="card" href="feste-in-mayrhofen/index.html">
+</a><a class="card" data-o="feste-in-mayrhofen" href="feste-in-mayrhofen/index.html">
   <div class="t">Feste in Mayrhofen</div>
   <div class="d">8 kommende Veranstaltungen</div>
-</a><a class="card" href="feste-in-moedling/index.html">
+</a><a class="card" data-o="feste-in-moedling" href="feste-in-moedling/index.html">
   <div class="t">Feste in Mödling</div>
   <div class="d">15 kommende Veranstaltungen</div>
-</a><a class="card" href="feste-in-neusiedl-am-see/index.html">
+</a><a class="card" data-o="feste-in-neusiedl-am-see" href="feste-in-neusiedl-am-see/index.html">
   <div class="t">Feste in Neusiedl am See</div>
   <div class="d">4 kommende Veranstaltungen</div>
-</a><a class="card" href="feste-in-rust/index.html">
+</a><a class="card" data-o="feste-in-rust" href="feste-in-rust/index.html">
   <div class="t">Feste in Rust</div>
   <div class="d">7 kommende Veranstaltungen</div>
-</a><a class="card" href="feste-in-salzburg/index.html">
+</a><a class="card" data-o="feste-in-salzburg" href="feste-in-salzburg/index.html">
   <div class="t">Feste in Salzburg</div>
   <div class="d">26 kommende Veranstaltungen</div>
-</a><a class="card" href="feste-in-schwaz/index.html">
+</a><a class="card" data-o="feste-in-schwaz" href="feste-in-schwaz/index.html">
   <div class="t">Feste in Schwaz</div>
   <div class="d">8 kommende Veranstaltungen</div>
-</a><a class="card" href="feste-in-seefeld-in-tirol/index.html">
+</a><a class="card" data-o="feste-in-seefeld-in-tirol" href="feste-in-seefeld-in-tirol/index.html">
   <div class="t">Feste in Seefeld in Tirol</div>
   <div class="d">14 kommende Veranstaltungen</div>
-</a><a class="card" href="feste-in-spittal-an-der-drau/index.html">
+</a><a class="card" data-o="feste-in-spittal-an-der-drau" href="feste-in-spittal-an-der-drau/index.html">
   <div class="t">Feste in Spittal an der Drau</div>
   <div class="d">9 kommende Veranstaltungen</div>
-</a><a class="card" href="feste-in-st-johann-in-tirol/index.html">
+</a><a class="card" data-o="feste-in-st-johann-in-tirol" href="feste-in-st-johann-in-tirol/index.html">
   <div class="t">Feste in St. Johann in Tirol</div>
   <div class="d">1 kommende Veranstaltung</div>
-</a><a class="card" href="feste-in-st-poelten/index.html">
+</a><a class="card" data-o="feste-in-st-poelten" href="feste-in-st-poelten/index.html">
   <div class="t">Feste in St. Pölten</div>
   <div class="d">9 kommende Veranstaltungen</div>
-</a><a class="card" href="feste-in-steyr/index.html">
+</a><a class="card" data-o="feste-in-steyr" href="feste-in-steyr/index.html">
   <div class="t">Feste in Steyr</div>
   <div class="d">5 kommende Veranstaltungen</div>
-</a><a class="card" href="feste-in-soelden/index.html">
+</a><a class="card" data-o="feste-in-soelden" href="feste-in-soelden/index.html">
   <div class="t">Feste in Sölden</div>
   <div class="d">11 kommende Veranstaltungen</div>
-</a><a class="card" href="feste-in-traun/index.html">
+</a><a class="card" data-o="feste-in-traun" href="feste-in-traun/index.html">
   <div class="t">Feste in Traun</div>
   <div class="d">9 kommende Veranstaltungen</div>
-</a><a class="card" href="feste-in-villach/index.html">
+</a><a class="card" data-o="feste-in-villach" href="feste-in-villach/index.html">
   <div class="t">Feste in Villach</div>
   <div class="d">14 kommende Veranstaltungen</div>
-</a><a class="card" href="feste-in-wels/index.html">
+</a><a class="card" data-o="feste-in-wels" href="feste-in-wels/index.html">
   <div class="t">Feste in Wels</div>
   <div class="d">16 kommende Veranstaltungen</div>
-</a><a class="card" href="feste-in-wien/index.html">
+</a><a class="card" data-o="feste-in-wien" href="feste-in-wien/index.html">
   <div class="t">Feste in Wien</div>
   <div class="d">40 kommende Veranstaltungen</div>
-</a><a class="card" href="feste-in-wiener-neustadt/index.html">
+</a><a class="card" data-o="feste-in-wiener-neustadt" href="feste-in-wiener-neustadt/index.html">
   <div class="t">Feste in Wiener Neustadt</div>
   <div class="d">8 kommende Veranstaltungen</div>
-</a><a class="card" href="feste-in-wolfsberg/index.html">
+</a><a class="card" data-o="feste-in-wolfsberg" href="feste-in-wolfsberg/index.html">
   <div class="t">Feste in Wolfsberg</div>
   <div class="d">4 kommende Veranstaltungen</div>
-</a><a class="card" href="feste-in-woergl/index.html">
+</a><a class="card" data-o="feste-in-woergl" href="feste-in-woergl/index.html">
   <div class="t">Feste in Wörgl</div>
   <div class="d">5 kommende Veranstaltungen</div>
-</a><a class="card" href="feste-in-zell-am-see/index.html">
+</a><a class="card" data-o="feste-in-zell-am-see" href="feste-in-zell-am-see/index.html">
   <div class="t">Feste in Zell am See</div>
   <div class="d">12 kommende Veranstaltungen</div>
 </a>
 <script>
 (function(){
-var NOHIT='Keine Stadt gefunden.',WAIT='Standort wird ermittelt …',FAIL='Standort nicht verfügbar – bitte Stadt manuell wählen.';
+var NOHIT='Keine Stadt gefunden.',WAIT='Standort wird ermittelt …',FAIL='Standort nicht verfügbar – bitte Stadt manuell wählen.',
+TREF='{n} Orte im Umkreis von {km} km',TREF1='1 Ort im Umkreis von {km} km',
+KEIN='Im gewählten Umkreis liegt kein Ort – hier die nächstgelegenen.',DENIED='Standortzugriff abgelehnt – bitte Stadt manuell wählen.',
+UNAVAIL='Der Standort ließ sich nicht bestimmen. An Rechnern ohne WLAN-Ortung kommt das häufig vor – bitte Stadt manuell wählen.',TMOUT='Die Standortbestimmung hat zu lange gedauert – bitte noch einmal versuchen.',
+DATA='Die Ortsliste ließ sich nicht laden – bitte die Seite neu laden.',UNSEC='Ortung ist nur über eine verschlüsselte Verbindung möglich – bitte Stadt manuell wählen.';
 var sel=document.getElementById('pl'),inp=document.getElementById('ps'),
-btn=document.getElementById('pg'),msg=document.getElementById('pm');
+btn=document.getElementById('pg'),msg=document.getElementById('pm'),
+rad=document.getElementById('pr'),alle=document.getElementById('pa');
 var cards=[].slice.call(document.querySelectorAll('a.card'));
+var orig=cards.slice(),eltern=cards.length?cards[0].parentNode:null,geoAn=false;
+function dz(c){return c.querySelector('.d');}
+function zurueck(){
+for(var i=0;i<orig.length;i++){var c=orig[i],d=dz(c);
+if(d&&d.getAttribute('data-d0')!==null){d.textContent=d.getAttribute('data-d0');d.removeAttribute('data-d0');}
+c.style.display='';if(eltern)eltern.appendChild(c);}
+geoAn=false;if(alle)alle.hidden=true;msg.textContent='';
+}
+if(alle)alle.addEventListener('click',zurueck);
 if(sel)sel.addEventListener('change',function(){location.href='/'+sel.value+'/';});
 if(inp)inp.addEventListener('input',function(){
+if(geoAn)zurueck();
 var q=inp.value.trim().toLowerCase(),n=0;
 for(var i=0;i<cards.length;i++){
 var hit=!q||cards[i].textContent.toLowerCase().indexOf(q)>=0;
@@ -193,23 +210,54 @@ cards[i].style.display=hit?'':'none';if(hit)n++;
 msg.textContent=(q&&!n)?NOHIT:'';
 });
 if(btn)btn.addEventListener('click',function(){
+// Ohne sicheren Kontext (HTTPS oder localhost) verweigern Browser die Ortung.
+// Safari meldet dann PERMISSION_DENIED, ohne ueberhaupt zu fragen - die
+// Meldung wuerde dem Nutzer eine Ablehnung unterstellen, die er nie
+// ausgesprochen hat. Live ist die Seite HTTPS; das greift beim Testen ueber
+// eine LAN-Adresse und auf lokalen Kopien.
+if(window.isSecureContext===false){msg.textContent=UNSEC;return;}
 if(!navigator.geolocation){msg.textContent=FAIL;return;}
 msg.textContent=WAIT;btn.disabled=true;
 navigator.geolocation.getCurrentPosition(function(p){
 fetch('/orte-de.json').then(function(r){return r.json();}).then(function(l){
-var la=p.coords.latitude,lo=p.coords.longitude,b=null,bd=1e18;
-for(var i=0;i<l.length;i++){
-var dy=(l[i][1]-la)*111.2,dx=(l[i][2]-lo)*111.2*Math.cos(la*Math.PI/180);
-var d=dy*dy+dx*dx;if(d<bd){bd=d;b=l[i];}
+if(inp)inp.value='';
+var la=p.coords.latitude,lo=p.coords.longitude,km=parseInt(rad?rad.value:'25',10);
+var pos={};for(var i=0;i<l.length;i++){if(l[i][3])pos[l[i][3]]=[l[i][1],l[i][2]];}
+var mit=[];
+for(var i=0;i<cards.length;i++){
+var o=cards[i].getAttribute('data-o'),c=o?pos[o]:null;if(!c)continue;
+var dy=(c[0]-la)*111.2,dx=(c[1]-lo)*111.2*Math.cos(la*Math.PI/180);
+mit.push({c:cards[i],d:Math.sqrt(dy*dy+dx*dx)});
 }
-if(b){location.href=b[0];}else{msg.textContent=FAIL;btn.disabled=false;}
-}).catch(function(){msg.textContent=FAIL;btn.disabled=false;});
-},function(){msg.textContent=FAIL;btn.disabled=false;},{timeout:10000,maximumAge:600000});
+mit.sort(function(a,b){return a.d-b.d;});
+var drin=[],weit=false;
+for(var i=0;i<mit.length;i++)if(mit[i].d<=km)drin.push(mit[i]);
+if(!drin.length){drin=mit.slice(0,10);weit=true;}
+if(!drin.length){msg.textContent=FAIL;btn.disabled=false;return;}
+for(var i=0;i<cards.length;i++)cards[i].style.display='none';
+for(var i=0;i<drin.length;i++){
+var c=drin[i].c,d=dz(c);
+if(d){if(d.getAttribute('data-d0')===null)d.setAttribute('data-d0',d.textContent);
+d.textContent=Math.round(drin[i].d)+' km \u00b7 '+d.getAttribute('data-d0');}
+c.style.display='';if(eltern)eltern.appendChild(c);
+}
+geoAn=true;if(alle)alle.hidden=false;btn.disabled=false;
+msg.textContent=weit?KEIN:(drin.length===1?TREF1:TREF.replace('{n}',drin.length)).replace('{km}',km);
+}).catch(function(e){if(window.console)console.warn('orte.json',e);msg.textContent=DATA;btn.disabled=false;});
+},function(e){
+// Vier klar unterscheidbare Ursachen statt einer Sammelmeldung: Ablehnung,
+// "Position nicht ermittelbar" (an Desktop-Rechnern ohne WLAN-Ortung der
+// Normalfall), Zeitueberschreitung, und getrennt davon das Nachladen der
+// Ortsdatei. Sonst sucht man den Fehler an der falschen Stelle.
+if(window.console)console.warn('Geolocation',e&&e.code,e&&e.message);
+msg.textContent=!e?FAIL:(e.code===1?DENIED:(e.code===3?TMOUT:UNAVAIL));
+btn.disabled=false;
+},{timeout:20000,maximumAge:600000});
 });
 })();
 </script>
 </main>
-<footer>Fest AM · Feste &amp; Veranstaltungen · Termine ohne Gewähr, bitte beim Veranstalter prüfen. · Anonyme, cookielose Reichweitenmessung (GoatCounter) – keine Cookies, keine personenbezogenen Daten.</footer>
+<footer>Fest AM · Feste &amp; Veranstaltungen · Termine ohne Gewähr, bitte beim Veranstalter prüfen. · Cookielose Reichweitenmessung (GoatCounter) – keine Cookies, keine IP-Speicherung. · <a href="impressum/index.html">Impressum</a> · <a href="datenschutz/index.html">Datenschutzerklärung</a></footer>
 <script data-goatcounter="https://amapps.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 </body>
 </html>

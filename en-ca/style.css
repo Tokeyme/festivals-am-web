@@ -9,6 +9,8 @@ header.site .brand{color:#fff;font-weight:600;text-decoration:none;font-size:18p
 .pf select,.pf input{font:inherit;font-size:16px;color:var(--ink);background:#fff;border:1px solid var(--line);border-radius:8px;padding:8px 10px;width:100%}
 .pb{font:inherit;font-size:15px;color:#fff;background:var(--o);border:0;border-radius:8px;padding:9px 14px;cursor:pointer;flex:0 0 auto}
 .pb:disabled{opacity:.6;cursor:default}
+.pb-2{background:#fff;color:var(--ink);border:1px solid var(--line)}
+.pf-s{flex:0 0 auto;min-width:96px}
 .pm{flex-basis:100%;font-size:14px;color:var(--mut);min-height:1.2em}
 nav.bc{max-width:760px;margin:0 auto;padding:12px 20px 0;color:var(--mut);font-size:13px}
 nav.bc a{color:var(--mut);text-decoration:none}
@@ -37,3 +39,18 @@ a{color:#b4560a}
 .stay .staytxt{margin:0 0 .85em;font-size:15px;color:var(--ink)}
 .stay .stay-btn{margin-top:0}
 footer{max-width:760px;margin:0 auto;padding:18px 20px 30px;color:var(--mut);font-size:13px;border-top:1px solid var(--line)}
+.bild{position:relative;margin:1.1em 0 1.3em;border-radius:12px;overflow:hidden;background:#eee;aspect-ratio:16/9}
+.bild img{display:block;width:100%;height:100%;object-fit:cover}
+.bild-svg{background:#fff;border:1px solid var(--line)}
+.bild-svg img{object-fit:contain;padding:6px}
+.bild .lbl{position:absolute;right:8px;bottom:8px;background:rgba(0,0,0,.55);color:#fff;font-size:11px;line-height:1.4;padding:3px 8px;border-radius:6px}
+.nah-h{font-size:17px;color:var(--mut);font-weight:600;margin:2em 0 .5em;padding-top:1.2em;border-top:1px solid var(--line)}
+.nah-h+.card.nah{margin-top:0}
+.card.nah .d{font-variant-numeric:tabular-nums}
+.nah-l{margin:.9em 0 0;font-size:14px}
+.appx{display:block;margin:1.8em 0 0;padding:12px 14px;border:1px solid var(--line);border-radius:12px;background:#fff;font-size:14px;color:var(--mut)}
+.appx strong{color:var(--ink)}
+.appx[hidden]{display:none}
+footer a{color:var(--mut);text-decoration:underline}
+main h2{font-size:18px;line-height:1.35;margin:1.7em 0 .35em}
+main h2+p{margin-top:0}

@@ -34,60 +34,77 @@
 <div class="pick">
   <label class="pf"><span>Pays</span><select id="pl"><option value="fr-ca">Canada</option><option value="fr-ch" selected>Suisse</option></select></label>
   <label class="pf"><span>Ville</span><input id="ps" type="search" placeholder="Chercher une ville …" autocomplete="off"></label>
+  <label class="pf pf-s"><span>Rayon</span><select id="pr"><option value="10">10 km</option><option value="25" selected>25 km</option><option value="50">50 km</option><option value="100">100 km</option></select></label>
   <button id="pg" type="button" class="pb">Utiliser ma position</button>
+  <button id="pa" type="button" class="pb pb-2" hidden>Afficher toutes les localités</button>
   <span id="pm" class="pm" role="status"></span>
 </div>
-<a class="card" href="fetes-a-biel-bienne/index.html">
+<a class="card" data-o="fetes-a-biel-bienne" href="fetes-a-biel-bienne/index.html">
   <div class="t">Fêtes à Biel/Bienne</div>
   <div class="d">10 événements à venir</div>
-</a><a class="card" href="fetes-a-bulle/index.html">
+</a><a class="card" data-o="fetes-a-bulle" href="fetes-a-bulle/index.html">
   <div class="t">Fêtes à Bulle</div>
   <div class="d">6 événements à venir</div>
-</a><a class="card" href="fetes-a-carouge/index.html">
+</a><a class="card" data-o="fetes-a-carouge" href="fetes-a-carouge/index.html">
   <div class="t">Fêtes à Carouge</div>
   <div class="d">8 événements à venir</div>
-</a><a class="card" href="fetes-a-fribourg/index.html">
+</a><a class="card" data-o="fetes-a-fribourg" href="fetes-a-fribourg/index.html">
   <div class="t">Fêtes à Fribourg</div>
   <div class="d">10 événements à venir</div>
-</a><a class="card" href="fetes-a-genf/index.html">
+</a><a class="card" data-o="fetes-a-genf" href="fetes-a-genf/index.html">
   <div class="t">Fêtes à Genf</div>
   <div class="d">14 événements à venir</div>
-</a><a class="card" href="fetes-a-la-chaux-de-fonds/index.html">
+</a><a class="card" data-o="fetes-a-la-chaux-de-fonds" href="fetes-a-la-chaux-de-fonds/index.html">
   <div class="t">Fêtes à La Chaux-de-Fonds</div>
   <div class="d">5 événements à venir</div>
-</a><a class="card" href="fetes-a-lausanne/index.html">
+</a><a class="card" data-o="fetes-a-lausanne" href="fetes-a-lausanne/index.html">
   <div class="t">Fêtes à Lausanne</div>
   <div class="d">12 événements à venir</div>
-</a><a class="card" href="fetes-a-martigny/index.html">
+</a><a class="card" data-o="fetes-a-martigny" href="fetes-a-martigny/index.html">
   <div class="t">Fêtes à Martigny</div>
   <div class="d">11 événements à venir</div>
-</a><a class="card" href="fetes-a-montreux/index.html">
+</a><a class="card" data-o="fetes-a-montreux" href="fetes-a-montreux/index.html">
   <div class="t">Fêtes à Montreux</div>
   <div class="d">7 événements à venir</div>
-</a><a class="card" href="fetes-a-neuchatel/index.html">
+</a><a class="card" data-o="fetes-a-neuchatel" href="fetes-a-neuchatel/index.html">
   <div class="t">Fêtes à Neuchâtel</div>
   <div class="d">6 événements à venir</div>
-</a><a class="card" href="fetes-a-nyon/index.html">
+</a><a class="card" data-o="fetes-a-nyon" href="fetes-a-nyon/index.html">
   <div class="t">Fêtes à Nyon</div>
   <div class="d">13 événements à venir</div>
-</a><a class="card" href="fetes-a-sion/index.html">
+</a><a class="card" data-o="fetes-a-sion" href="fetes-a-sion/index.html">
   <div class="t">Fêtes à Sion</div>
   <div class="d">6 événements à venir</div>
-</a><a class="card" href="fetes-a-vevey/index.html">
+</a><a class="card" data-o="fetes-a-vevey" href="fetes-a-vevey/index.html">
   <div class="t">Fêtes à Vevey</div>
   <div class="d">13 événements à venir</div>
-</a><a class="card" href="fetes-a-yverdon-les-bains/index.html">
+</a><a class="card" data-o="fetes-a-yverdon-les-bains" href="fetes-a-yverdon-les-bains/index.html">
   <div class="t">Fêtes à Yverdon-les-Bains</div>
   <div class="d">8 événements à venir</div>
 </a>
 <script>
 (function(){
-var NOHIT='Aucune ville trouvée.',WAIT='Localisation en cours …',FAIL='Position indisponible – choisissez une ville manuellement.';
+var NOHIT='Aucune ville trouvée.',WAIT='Localisation en cours …',FAIL='Position indisponible – choisissez une ville manuellement.',
+TREF='{n} localités dans un rayon de {km} km',TREF1='1 localité dans un rayon de {km} km',
+KEIN='Aucune localité dans le rayon choisi – voici les plus proches.',DENIED='Accès à la position refusé – veuillez choisir une localité manuellement.',
+UNAVAIL='La position n\'a pas pu être déterminée. Sur les ordinateurs sans localisation Wi-Fi, cela arrive souvent – veuillez choisir une localité manuellement.',TMOUT='La localisation a pris trop de temps – veuillez réessayer.',
+DATA='La liste des localités n\'a pas pu être chargée – veuillez recharger la page.',UNSEC='La localisation n\'est possible que via une connexion chiffrée – veuillez choisir une localité manuellement.';
 var sel=document.getElementById('pl'),inp=document.getElementById('ps'),
-btn=document.getElementById('pg'),msg=document.getElementById('pm');
+btn=document.getElementById('pg'),msg=document.getElementById('pm'),
+rad=document.getElementById('pr'),alle=document.getElementById('pa');
 var cards=[].slice.call(document.querySelectorAll('a.card'));
+var orig=cards.slice(),eltern=cards.length?cards[0].parentNode:null,geoAn=false;
+function dz(c){return c.querySelector('.d');}
+function zurueck(){
+for(var i=0;i<orig.length;i++){var c=orig[i],d=dz(c);
+if(d&&d.getAttribute('data-d0')!==null){d.textContent=d.getAttribute('data-d0');d.removeAttribute('data-d0');}
+c.style.display='';if(eltern)eltern.appendChild(c);}
+geoAn=false;if(alle)alle.hidden=true;msg.textContent='';
+}
+if(alle)alle.addEventListener('click',zurueck);
 if(sel)sel.addEventListener('change',function(){location.href='/'+sel.value+'/';});
 if(inp)inp.addEventListener('input',function(){
+if(geoAn)zurueck();
 var q=inp.value.trim().toLowerCase(),n=0;
 for(var i=0;i<cards.length;i++){
 var hit=!q||cards[i].textContent.toLowerCase().indexOf(q)>=0;
@@ -96,23 +113,54 @@ cards[i].style.display=hit?'':'none';if(hit)n++;
 msg.textContent=(q&&!n)?NOHIT:'';
 });
 if(btn)btn.addEventListener('click',function(){
+// Ohne sicheren Kontext (HTTPS oder localhost) verweigern Browser die Ortung.
+// Safari meldet dann PERMISSION_DENIED, ohne ueberhaupt zu fragen - die
+// Meldung wuerde dem Nutzer eine Ablehnung unterstellen, die er nie
+// ausgesprochen hat. Live ist die Seite HTTPS; das greift beim Testen ueber
+// eine LAN-Adresse und auf lokalen Kopien.
+if(window.isSecureContext===false){msg.textContent=UNSEC;return;}
 if(!navigator.geolocation){msg.textContent=FAIL;return;}
 msg.textContent=WAIT;btn.disabled=true;
 navigator.geolocation.getCurrentPosition(function(p){
 fetch('/orte-fr.json').then(function(r){return r.json();}).then(function(l){
-var la=p.coords.latitude,lo=p.coords.longitude,b=null,bd=1e18;
-for(var i=0;i<l.length;i++){
-var dy=(l[i][1]-la)*111.2,dx=(l[i][2]-lo)*111.2*Math.cos(la*Math.PI/180);
-var d=dy*dy+dx*dx;if(d<bd){bd=d;b=l[i];}
+if(inp)inp.value='';
+var la=p.coords.latitude,lo=p.coords.longitude,km=parseInt(rad?rad.value:'25',10);
+var pos={};for(var i=0;i<l.length;i++){if(l[i][3])pos[l[i][3]]=[l[i][1],l[i][2]];}
+var mit=[];
+for(var i=0;i<cards.length;i++){
+var o=cards[i].getAttribute('data-o'),c=o?pos[o]:null;if(!c)continue;
+var dy=(c[0]-la)*111.2,dx=(c[1]-lo)*111.2*Math.cos(la*Math.PI/180);
+mit.push({c:cards[i],d:Math.sqrt(dy*dy+dx*dx)});
 }
-if(b){location.href=b[0];}else{msg.textContent=FAIL;btn.disabled=false;}
-}).catch(function(){msg.textContent=FAIL;btn.disabled=false;});
-},function(){msg.textContent=FAIL;btn.disabled=false;},{timeout:10000,maximumAge:600000});
+mit.sort(function(a,b){return a.d-b.d;});
+var drin=[],weit=false;
+for(var i=0;i<mit.length;i++)if(mit[i].d<=km)drin.push(mit[i]);
+if(!drin.length){drin=mit.slice(0,10);weit=true;}
+if(!drin.length){msg.textContent=FAIL;btn.disabled=false;return;}
+for(var i=0;i<cards.length;i++)cards[i].style.display='none';
+for(var i=0;i<drin.length;i++){
+var c=drin[i].c,d=dz(c);
+if(d){if(d.getAttribute('data-d0')===null)d.setAttribute('data-d0',d.textContent);
+d.textContent=Math.round(drin[i].d)+' km \u00b7 '+d.getAttribute('data-d0');}
+c.style.display='';if(eltern)eltern.appendChild(c);
+}
+geoAn=true;if(alle)alle.hidden=false;btn.disabled=false;
+msg.textContent=weit?KEIN:(drin.length===1?TREF1:TREF.replace('{n}',drin.length)).replace('{km}',km);
+}).catch(function(e){if(window.console)console.warn('orte.json',e);msg.textContent=DATA;btn.disabled=false;});
+},function(e){
+// Vier klar unterscheidbare Ursachen statt einer Sammelmeldung: Ablehnung,
+// "Position nicht ermittelbar" (an Desktop-Rechnern ohne WLAN-Ortung der
+// Normalfall), Zeitueberschreitung, und getrennt davon das Nachladen der
+// Ortsdatei. Sonst sucht man den Fehler an der falschen Stelle.
+if(window.console)console.warn('Geolocation',e&&e.code,e&&e.message);
+msg.textContent=!e?FAIL:(e.code===1?DENIED:(e.code===3?TMOUT:UNAVAIL));
+btn.disabled=false;
+},{timeout:20000,maximumAge:600000});
 });
 })();
 </script>
 </main>
-<footer>Fest AM · Fêtes &amp; événements · Dates sans garantie, à vérifier auprès de l'organisateur. · Mesure d'audience anonyme et sans cookie (GoatCounter) – aucun cookie, aucune donnée personnelle.</footer>
+<footer>Fest AM · Fêtes &amp; événements · Dates sans garantie, à vérifier auprès de l'organisateur. · Mesure d'audience sans cookie (GoatCounter) – aucun cookie, aucune conservation d'adresse IP. · <a href="mentions-legales/index.html">Mentions légales</a> · <a href="confidentialite/index.html">Politique de confidentialité</a></footer>
 <script data-goatcounter="https://amapps.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 </body>
 </html>
