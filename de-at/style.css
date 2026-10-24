@@ -49,5 +49,6 @@ footer{max-width:760px;margin:0 auto;padding:18px 20px 30px;color:var(--mut);fon
 .card.nah .d{font-variant-numeric:tabular-nums}
 .nah-l{margin:.9em 0 0;font-size:14px}
 footer a{color:var(--mut);text-decoration:underline}
+footer nav{margin-top:8px}
 main h2{font-size:18px;line-height:1.35;margin:1.7em 0 .35em}
 main h2+p{margin-top:0}
