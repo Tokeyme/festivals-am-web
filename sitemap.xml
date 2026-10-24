@@ -1,22 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap><loc>https://festam.app/sitemap-cs-cz.xml</loc></sitemap>
+  <sitemap><loc>https://festam.app/sitemap-da-dk.xml</loc></sitemap>
   <sitemap><loc>https://festam.app/sitemap-de-at.xml</loc></sitemap>
   <sitemap><loc>https://festam.app/sitemap-de-ch.xml</loc></sitemap>
   <sitemap><loc>https://festam.app/sitemap-de-de.xml</loc></sitemap>
   <sitemap><loc>https://festam.app/sitemap-de-nl.xml</loc></sitemap>
+  <sitemap><loc>https://festam.app/sitemap-el-gr.xml</loc></sitemap>
   <sitemap><loc>https://festam.app/sitemap-en-at.xml</loc></sitemap>
   <sitemap><loc>https://festam.app/sitemap-en-au.xml</loc></sitemap>
   <sitemap><loc>https://festam.app/sitemap-en-ca.xml</loc></sitemap>
   <sitemap><loc>https://festam.app/sitemap-en-ch.xml</loc></sitemap>
   <sitemap><loc>https://festam.app/sitemap-en-de.xml</loc></sitemap>
   <sitemap><loc>https://festam.app/sitemap-en-gb.xml</loc></sitemap>
+  <sitemap><loc>https://festam.app/sitemap-en-ie.xml</loc></sitemap>
+  <sitemap><loc>https://festam.app/sitemap-en-mt.xml</loc></sitemap>
   <sitemap><loc>https://festam.app/sitemap-en-nl.xml</loc></sitemap>
+  <sitemap><loc>https://festam.app/sitemap-en-nz.xml</loc></sitemap>
   <sitemap><loc>https://festam.app/sitemap-en-us.xml</loc></sitemap>
+  <sitemap><loc>https://festam.app/sitemap-es-es.xml</loc></sitemap>
+  <sitemap><loc>https://festam.app/sitemap-et-ee.xml</loc></sitemap>
+  <sitemap><loc>https://festam.app/sitemap-fi-fi.xml</loc></sitemap>
+  <sitemap><loc>https://festam.app/sitemap-fr-be.xml</loc></sitemap>
   <sitemap><loc>https://festam.app/sitemap-fr-ca.xml</loc></sitemap>
   <sitemap><loc>https://festam.app/sitemap-fr-ch.xml</loc></sitemap>
   <sitemap><loc>https://festam.app/sitemap-fr-fr.xml</loc></sitemap>
+  <sitemap><loc>https://festam.app/sitemap-fr-lu.xml</loc></sitemap>
+  <sitemap><loc>https://festam.app/sitemap-hr-hr.xml</loc></sitemap>
+  <sitemap><loc>https://festam.app/sitemap-hu-hu.xml</loc></sitemap>
   <sitemap><loc>https://festam.app/sitemap-it-ch.xml</loc></sitemap>
   <sitemap><loc>https://festam.app/sitemap-it-it.xml</loc></sitemap>
   <sitemap><loc>https://festam.app/sitemap-ja-jp.xml</loc></sitemap>
+  <sitemap><loc>https://festam.app/sitemap-ko-kr.xml</loc></sitemap>
+  <sitemap><loc>https://festam.app/sitemap-nb-no.xml</loc></sitemap>
+  <sitemap><loc>https://festam.app/sitemap-nl-be.xml</loc></sitemap>
   <sitemap><loc>https://festam.app/sitemap-nl-nl.xml</loc></sitemap>
+  <sitemap><loc>https://festam.app/sitemap-pl-pl.xml</loc></sitemap>
+  <sitemap><loc>https://festam.app/sitemap-pt-pt.xml</loc></sitemap>
+  <sitemap><loc>https://festam.app/sitemap-sl-si.xml</loc></sitemap>
+  <sitemap><loc>https://festam.app/sitemap-sv-se.xml</loc></sitemap>
+  <sitemap><loc>https://festam.app/sitemap-zh-cn.xml</loc></sitemap>
 </sitemapindex>

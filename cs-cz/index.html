@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="cs-CZ">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="content-language" content="cs-CZ">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#ED7F14">
+<title>Fest AM – Slavnosti a akce v Česku</title>
+<meta name="description" content="Najděte slavnosti, poutě, vánoční trhy a festivaly v Česku – podle obcí, s termíny a informacemi.">
+<link rel="canonical" href="https://festam.app/cs-cz/">
+<link rel="alternate" hreflang="cs-CZ" href="https://festam.app/cs-cz/">
+<link rel="alternate" hreflang="x-default" href="https://festam.app/cs-cz/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Fest AM – Slavnosti a akce v Česku">
+<meta property="og:description" content="Najděte slavnosti, poutě, vánoční trhy a festivaly v Česku – podle obcí, s termíny a informacemi.">
+<meta property="og:url" content="https://festam.app/cs-cz/">
+<meta property="og:site_name" content="Fest AM">
+<meta property="og:locale" content="cs_CZ">
+<meta property="og:image" content="https://festam.app/og-image.png">
+<meta property="og:image:alt" content="Fest AM">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://festam.app/og-image.png">
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Fest AM","url":"https://festam.app/cs-cz/"}</script>
+</head>
+<body>
+<header class="site"><a class="brand" href="index.html">Fest AM</a></header>
+
+<main>
+<h1>Slavnosti a akce v Česku</h1>
+<p class="meta">Slavnosti, poutě, vánoční trhy a festivaly podle obcí.</p>
+<div class="pick">
+  <label class="pf"><span>Obec</span><input id="ps" type="search" placeholder="Hledat obec…" autocomplete="off"></label>
+  <label class="pf pf-s"><span>Okruh</span><select id="pr"><option value="10">10 km</option><option value="25" selected>25 km</option><option value="50">50 km</option><option value="100">100 km</option></select></label>
+  <button id="pg" type="button" class="pb">Použít moji polohu</button>
+  <button id="pa" type="button" class="pb pb-2" hidden>Zobrazit všechny obce</button>
+  <span id="pm" class="pm" role="status"></span>
+</div>
+<a class="card" data-o="akce-cesky-krumlov" href="akce-cesky-krumlov/index.html">
+  <div class="t">Akce – Český Krumlov</div>
+  <div class="d">nadcházející akce: 5</div>
+</a><a class="card" data-o="akce-karlovy-vary" href="akce-karlovy-vary/index.html">
+  <div class="t">Akce – Karlovy Vary</div>
+  <div class="d">nadcházející akce: 4</div>
+</a><a class="card" data-o="akce-kladno" href="akce-kladno/index.html">
+  <div class="t">Akce – Kladno</div>
+  <div class="d">1 nadcházející akce</div>
+</a><a class="card" data-o="akce-kutna-hora" href="akce-kutna-hora/index.html">
+  <div class="t">Akce – Kutná Hora</div>
+  <div class="d">nadcházející akce: 2</div>
+</a><a class="card" data-o="akce-most" href="akce-most/index.html">
+  <div class="t">Akce – Most</div>
+  <div class="d">nadcházející akce: 2</div>
+</a><a class="card" data-o="akce-telc" href="akce-telc/index.html">
+  <div class="t">Akce – Telč</div>
+  <div class="d">nadcházející akce: 3</div>
+</a><a class="card" data-o="akce-zlin" href="akce-zlin/index.html">
+  <div class="t">Akce – Zlín</div>
+  <div class="d">nadcházející akce: 3</div>
+</a>
+<script>
+(function(){
+var NOHIT='Obec nebyla nalezena.',WAIT='Zjišťuji polohu…',FAIL='Poloha není k dispozici – vyberte obec ručně.',
+TREF='Obce v okruhu {km} km: {n}',TREF1='1 obec v okruhu {km} km',
+KEIN='Ve zvoleném okruhu není žádná obec – zobrazujeme nejbližší.',DENIED='Přístup k poloze byl zamítnut. Povolte ho v nastavení prohlížeče pro tento web – nebo vyberte obec ručně.',
+UNAVAIL='Vaši polohu se nepodařilo zjistit. Na počítačích bez určování polohy přes Wi-Fi se to stává často – vyberte obec ručně.',TMOUT='Zjišťování polohy trvalo příliš dlouho – zkuste to znovu.',
+DATA='Seznam obcí se nepodařilo načíst – obnovte stránku.',UNSEC='Určování polohy funguje jen přes zabezpečené připojení (HTTPS) – vyberte obec ručně.';
+var sel=document.getElementById('pl'),inp=document.getElementById('ps'),
+btn=document.getElementById('pg'),msg=document.getElementById('pm'),
+rad=document.getElementById('pr'),alle=document.getElementById('pa');
+var cards=[].slice.call(document.querySelectorAll('a.card'));
+var orig=cards.slice(),eltern=cards.length?cards[0].parentNode:null,geoAn=false;
+function dz(c){return c.querySelector('.d');}
+function falt(t){return (t.normalize?t.normalize('NFD').replace(/[\u0300-\u036f]/g,''):t).toLowerCase();}
+function zurueck(){
+for(var i=0;i<orig.length;i++){var c=orig[i],d=dz(c);
+if(d&&d.getAttribute('data-d0')!==null){d.textContent=d.getAttribute('data-d0');d.removeAttribute('data-d0');}
+c.style.display='';if(eltern)eltern.appendChild(c);}
+geoAn=false;if(alle)alle.hidden=true;msg.textContent='';
+}
+if(alle)alle.addEventListener('click',zurueck);
+if(sel)sel.addEventListener('change',function(){location.href='/'+sel.value+'/';});
+if(inp)inp.addEventListener('input',function(){
+if(geoAn)zurueck();
+var q=falt(inp.value.trim()),n=0;
+for(var i=0;i<cards.length;i++){
+var hit=!q||falt(cards[i].textContent).indexOf(q)>=0;
+cards[i].style.display=hit?'':'none';if(hit)n++;
+}
+msg.textContent=(q&&!n)?NOHIT:'';
+});
+if(btn)btn.addEventListener('click',function(){
+// Ohne sicheren Kontext (HTTPS oder localhost) verweigern Browser die Ortung.
+// Safari meldet dann PERMISSION_DENIED, ohne ueberhaupt zu fragen - die
+// Meldung wuerde dem Nutzer eine Ablehnung unterstellen, die er nie
+// ausgesprochen hat. Live ist die Seite HTTPS; das greift beim Testen ueber
+// eine LAN-Adresse und auf lokalen Kopien.
+if(window.isSecureContext===false){msg.textContent=UNSEC;return;}
+if(!navigator.geolocation){msg.textContent=FAIL;return;}
+msg.textContent=WAIT;btn.disabled=true;
+navigator.geolocation.getCurrentPosition(function(p){
+fetch('/orte-cs.json').then(function(r){return r.json();}).then(function(l){
+if(inp)inp.value='';
+var la=p.coords.latitude,lo=p.coords.longitude,km=parseInt(rad?rad.value:'25',10);
+var pos={};for(var i=0;i<l.length;i++){if(l[i][3])pos[l[i][3]]=[l[i][1],l[i][2]];}
+var mit=[];
+for(var i=0;i<cards.length;i++){
+var o=cards[i].getAttribute('data-o'),c=o?pos[o]:null;if(!c)continue;
+var dy=(c[0]-la)*111.2,dx=(c[1]-lo)*111.2*Math.cos(la*Math.PI/180);
+mit.push({c:cards[i],d:Math.sqrt(dy*dy+dx*dx)});
+}
+mit.sort(function(a,b){return a.d-b.d;});
+var drin=[],weit=false;
+for(var i=0;i<mit.length;i++)if(mit[i].d<=km)drin.push(mit[i]);
+if(!drin.length){drin=mit.slice(0,10);weit=true;}
+if(!drin.length){msg.textContent=FAIL;btn.disabled=false;return;}
+for(var i=0;i<cards.length;i++)cards[i].style.display='none';
+for(var i=0;i<drin.length;i++){
+var c=drin[i].c,d=dz(c);
+if(d){if(d.getAttribute('data-d0')===null)d.setAttribute('data-d0',d.textContent);
+d.textContent=(drin[i].d<0.95?'méně než 1 km':Math.round(drin[i].d)+' km')+' \u00b7 '+d.getAttribute('data-d0');}
+c.style.display='';if(eltern)eltern.appendChild(c);
+}
+geoAn=true;if(alle)alle.hidden=false;btn.disabled=false;
+msg.textContent=weit?KEIN:(drin.length===1?TREF1:TREF.replace('{n}',drin.length)).replace('{km}',km);
+}).catch(function(e){if(window.console)console.warn('orte.json',e);msg.textContent=DATA;btn.disabled=false;});
+},function(e){
+// Vier klar unterscheidbare Ursachen statt einer Sammelmeldung: Ablehnung,
+// "Position nicht ermittelbar" (an Desktop-Rechnern ohne WLAN-Ortung der
+// Normalfall), Zeitueberschreitung, und getrennt davon das Nachladen der
+// Ortsdatei. Sonst sucht man den Fehler an der falschen Stelle.
+if(window.console)console.warn('Geolocation',e&&e.code,e&&e.message);
+msg.textContent=!e?FAIL:(e.code===1?DENIED:(e.code===3?TMOUT:UNAVAIL));
+btn.disabled=false;
+},{timeout:20000,maximumAge:600000});
+});
+})();
+</script>
+</main>
+<footer>Fest AM · Slavnosti a akce · Termíny se mohou změnit – vždy si je ověřte u pořadatele. · Statistika návštěvnosti bez cookies (GoatCounter), bez ukládání IP adres. · <a href="imprint/index.html">Provozovatel (anglicky)</a> · <a href="privacy/index.html">Ochrana osobních údajů (anglicky)</a><nav class="laender"><a href="/de-de/" hreflang="de-DE" lang="de">Deutschland</a> · <a href="/de-at/" hreflang="de-AT" lang="de">Österreich</a> · <a href="/de-ch/" hreflang="de-CH" lang="de">Schweiz</a> · <a href="/nl-nl/" hreflang="nl-NL" lang="nl">Nederland</a> · <a href="/en-gb/" hreflang="en-GB" lang="en">United Kingdom</a> · <a href="/en-us/" hreflang="en-US" lang="en">United States</a> · <a href="/en-ca/" hreflang="en-CA" lang="en">Canada</a> · <a href="/it-it/" hreflang="it-IT" lang="it">Italia</a> · <a href="/fr-fr/" hreflang="fr-FR" lang="fr">France</a> · <a href="/en-au/" hreflang="en-AU" lang="en">Australia</a> · <a href="/ja-jp/" hreflang="ja-JP" lang="ja">日本</a> · <a href="/es-es/" hreflang="es-ES" lang="es">España</a> · <a href="/da-dk/" hreflang="da-DK" lang="da">Danmark</a> · <a href="/en-nz/" hreflang="en-NZ" lang="en">New Zealand</a> · <a href="/zh-cn/" hreflang="zh-CN" lang="zh">中国</a> · <a href="/sv-se/" hreflang="sv-SE" lang="sv">Sverige</a> · <a href="/nb-no/" hreflang="nb-NO" lang="nb">Norge</a> · <a href="/fi-fi/" hreflang="fi-FI" lang="fi">Suomi</a> · <a href="/en-ie/" hreflang="en-IE" lang="en">Ireland</a> · <a href="/pt-pt/" hreflang="pt-PT" lang="pt">Portugal</a> · <a href="/nl-be/" hreflang="nl-BE" lang="nl">België / Belgique</a> · <a href="/fr-lu/" hreflang="fr-LU" lang="fr">Luxembourg</a> · <a href="/en-mt/" hreflang="en-MT" lang="en">Malta</a> · <a href="/ko-kr/" hreflang="ko-KR" lang="ko">대한민국</a> · <a href="/cs-cz/" hreflang="cs-CZ" lang="cs">Česko</a> · <a href="/pl-pl/" hreflang="pl-PL" lang="pl">Polska</a> · <a href="/el-gr/" hreflang="el-GR" lang="el">Ελλάδα</a> · <a href="/hr-hr/" hreflang="hr-HR" lang="hr">Hrvatska</a> · <a href="/sl-si/" hreflang="sl-SI" lang="sl">Slovenija</a> · <a href="/hu-hu/" hreflang="hu-HU" lang="hu">Magyarország</a> · <a href="/et-ee/" hreflang="et-EE" lang="et">Eesti</a></nav></footer>
+<script data-goatcounter="https://amapps.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+</body>
+</html>

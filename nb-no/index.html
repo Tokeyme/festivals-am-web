@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="nb-NO">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="content-language" content="nb-NO">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#ED7F14">
+<title>Fest AM – Festivaler og arrangementer i Norge</title>
+<meta name="description" content="Finn byfester, julemarkeder, musikkfestivaler og markeder i Norge – sortert etter sted, med datoer og info.">
+<link rel="canonical" href="https://festam.app/nb-no/">
+<link rel="alternate" hreflang="nb-NO" href="https://festam.app/nb-no/">
+<link rel="alternate" hreflang="x-default" href="https://festam.app/nb-no/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Fest AM – Festivaler og arrangementer i Norge">
+<meta property="og:description" content="Finn byfester, julemarkeder, musikkfestivaler og markeder i Norge – sortert etter sted, med datoer og info.">
+<meta property="og:url" content="https://festam.app/nb-no/">
+<meta property="og:site_name" content="Fest AM">
+<meta property="og:locale" content="nb_NO">
+<meta property="og:image" content="https://festam.app/og-image.png">
+<meta property="og:image:alt" content="Fest AM">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://festam.app/og-image.png">
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Fest AM","url":"https://festam.app/nb-no/"}</script>
+</head>
+<body>
+<header class="site"><a class="brand" href="index.html">Fest AM</a></header>
+
+<main>
+<h1>Festivaler og arrangementer i Norge</h1>
+<p class="meta">Byfester, julemarkeder, musikkfestivaler og markeder i nærheten av deg – sortert etter sted.</p>
+<div class="pick">
+  <label class="pf"><span>Sted</span><input id="ps" type="search" placeholder="Søk etter sted …" autocomplete="off"></label>
+  <label class="pf pf-s"><span>Avstand</span><select id="pr"><option value="10">10 km</option><option value="25" selected>25 km</option><option value="50">50 km</option><option value="100">100 km</option></select></label>
+  <button id="pg" type="button" class="pb">Bruk min posisjon</button>
+  <button id="pa" type="button" class="pb pb-2" hidden>Vis alle steder</button>
+  <span id="pm" class="pm" role="status"></span>
+</div>
+<a class="card" data-o="arrangementer-i-alesund" href="arrangementer-i-alesund/index.html">
+  <div class="t">Arrangementer i Ålesund</div>
+  <div class="d">4 kommende arrangementer</div>
+</a><a class="card" data-o="arrangementer-i-drammen" href="arrangementer-i-drammen/index.html">
+  <div class="t">Arrangementer i Drammen</div>
+  <div class="d">2 kommende arrangementer</div>
+</a><a class="card" data-o="arrangementer-i-lillehammer" href="arrangementer-i-lillehammer/index.html">
+  <div class="t">Arrangementer på Lillehammer</div>
+  <div class="d">4 kommende arrangementer</div>
+</a><a class="card" data-o="arrangementer-i-roros" href="arrangementer-i-roros/index.html">
+  <div class="t">Arrangementer på Røros</div>
+  <div class="d">3 kommende arrangementer</div>
+</a><a class="card" data-o="arrangementer-i-sandnes" href="arrangementer-i-sandnes/index.html">
+  <div class="t">Arrangementer i Sandnes</div>
+  <div class="d">1 kommende arrangement</div>
+</a><a class="card" data-o="arrangementer-i-skien" href="arrangementer-i-skien/index.html">
+  <div class="t">Arrangementer i Skien</div>
+  <div class="d">1 kommende arrangement</div>
+</a><a class="card" data-o="arrangementer-i-tromso" href="arrangementer-i-tromso/index.html">
+  <div class="t">Arrangementer i Tromsø</div>
+  <div class="d">3 kommende arrangementer</div>
+</a>
+<script>
+(function(){
+var NOHIT='Fant ingen steder.',WAIT='Finner posisjonen din …',FAIL='Posisjonen er ikke tilgjengelig – velg sted manuelt.',
+TREF='{n} steder innenfor {km} km',TREF1='1 sted innenfor {km} km',
+KEIN='Det finnes ingen steder innenfor valgt avstand – her er de nærmeste.',DENIED='Tilgang til posisjon ble avvist. Tillat det i nettleserens innstillinger for dette nettstedet – eller velg sted manuelt.',
+UNAVAIL='Posisjonen din kunne ikke fastslås. Det skjer ofte på datamaskiner uten wifi-posisjonering – velg sted manuelt.',TMOUT='Det tok for lang tid å finne posisjonen din – prøv igjen.',
+DATA='Listen over steder kunne ikke lastes – last inn siden på nytt.',UNSEC='Posisjonsbestemmelse fungerer bare over en sikker tilkobling (HTTPS) – velg sted manuelt.';
+var sel=document.getElementById('pl'),inp=document.getElementById('ps'),
+btn=document.getElementById('pg'),msg=document.getElementById('pm'),
+rad=document.getElementById('pr'),alle=document.getElementById('pa');
+var cards=[].slice.call(document.querySelectorAll('a.card'));
+var orig=cards.slice(),eltern=cards.length?cards[0].parentNode:null,geoAn=false;
+function dz(c){return c.querySelector('.d');}
+function falt(t){return (t.normalize?t.normalize('NFD').replace(/[\u0300-\u036f]/g,''):t).toLowerCase();}
+function zurueck(){
+for(var i=0;i<orig.length;i++){var c=orig[i],d=dz(c);
+if(d&&d.getAttribute('data-d0')!==null){d.textContent=d.getAttribute('data-d0');d.removeAttribute('data-d0');}
+c.style.display='';if(eltern)eltern.appendChild(c);}
+geoAn=false;if(alle)alle.hidden=true;msg.textContent='';
+}
+if(alle)alle.addEventListener('click',zurueck);
+if(sel)sel.addEventListener('change',function(){location.href='/'+sel.value+'/';});
+if(inp)inp.addEventListener('input',function(){
+if(geoAn)zurueck();
+var q=falt(inp.value.trim()),n=0;
+for(var i=0;i<cards.length;i++){
+var hit=!q||falt(cards[i].textContent).indexOf(q)>=0;
+cards[i].style.display=hit?'':'none';if(hit)n++;
+}
+msg.textContent=(q&&!n)?NOHIT:'';
+});
+if(btn)btn.addEventListener('click',function(){
+// Ohne sicheren Kontext (HTTPS oder localhost) verweigern Browser die Ortung.
+// Safari meldet dann PERMISSION_DENIED, ohne ueberhaupt zu fragen - die
+// Meldung wuerde dem Nutzer eine Ablehnung unterstellen, die er nie
+// ausgesprochen hat. Live ist die Seite HTTPS; das greift beim Testen ueber
+// eine LAN-Adresse und auf lokalen Kopien.
+if(window.isSecureContext===false){msg.textContent=UNSEC;return;}
+if(!navigator.geolocation){msg.textContent=FAIL;return;}
+msg.textContent=WAIT;btn.disabled=true;
+navigator.geolocation.getCurrentPosition(function(p){
+fetch('/orte-nb.json').then(function(r){return r.json();}).then(function(l){
+if(inp)inp.value='';
+var la=p.coords.latitude,lo=p.coords.longitude,km=parseInt(rad?rad.value:'25',10);
+var pos={};for(var i=0;i<l.length;i++){if(l[i][3])pos[l[i][3]]=[l[i][1],l[i][2]];}
+var mit=[];
+for(var i=0;i<cards.length;i++){
+var o=cards[i].getAttribute('data-o'),c=o?pos[o]:null;if(!c)continue;
+var dy=(c[0]-la)*111.2,dx=(c[1]-lo)*111.2*Math.cos(la*Math.PI/180);
+mit.push({c:cards[i],d:Math.sqrt(dy*dy+dx*dx)});
+}
+mit.sort(function(a,b){return a.d-b.d;});
+var drin=[],weit=false;
+for(var i=0;i<mit.length;i++)if(mit[i].d<=km)drin.push(mit[i]);
+if(!drin.length){drin=mit.slice(0,10);weit=true;}
+if(!drin.length){msg.textContent=FAIL;btn.disabled=false;return;}
+for(var i=0;i<cards.length;i++)cards[i].style.display='none';
+for(var i=0;i<drin.length;i++){
+var c=drin[i].c,d=dz(c);
+if(d){if(d.getAttribute('data-d0')===null)d.setAttribute('data-d0',d.textContent);
+d.textContent=(drin[i].d<0.95?'under 1 km':Math.round(drin[i].d)+' km')+' \u00b7 '+d.getAttribute('data-d0');}
+c.style.display='';if(eltern)eltern.appendChild(c);
+}
+geoAn=true;if(alle)alle.hidden=false;btn.disabled=false;
+msg.textContent=weit?KEIN:(drin.length===1?TREF1:TREF.replace('{n}',drin.length)).replace('{km}',km);
+}).catch(function(e){if(window.console)console.warn('orte.json',e);msg.textContent=DATA;btn.disabled=false;});
+},function(e){
+// Vier klar unterscheidbare Ursachen statt einer Sammelmeldung: Ablehnung,
+// "Position nicht ermittelbar" (an Desktop-Rechnern ohne WLAN-Ortung der
+// Normalfall), Zeitueberschreitung, und getrennt davon das Nachladen der
+// Ortsdatei. Sonst sucht man den Fehler an der falschen Stelle.
+if(window.console)console.warn('Geolocation',e&&e.code,e&&e.message);
+msg.textContent=!e?FAIL:(e.code===1?DENIED:(e.code===3?TMOUT:UNAVAIL));
+btn.disabled=false;
+},{timeout:20000,maximumAge:600000});
+});
+})();
+</script>
+</main>
+<footer>Fest AM · Festivaler og arrangementer · Med forbehold om endringer i datoer – sjekk alltid med arrangøren. · Besøksstatistikk uten informasjonskapsler (GoatCounter) – ingen informasjonskapsler, ingen lagring av IP-adresser. · <a href="imprint/index.html">Om nettstedet (på engelsk)</a> · <a href="privacy/index.html">Personvernerklæring (på engelsk)</a><nav class="laender"><a href="/de-de/" hreflang="de-DE" lang="de">Deutschland</a> · <a href="/de-at/" hreflang="de-AT" lang="de">Österreich</a> · <a href="/de-ch/" hreflang="de-CH" lang="de">Schweiz</a> · <a href="/nl-nl/" hreflang="nl-NL" lang="nl">Nederland</a> · <a href="/en-gb/" hreflang="en-GB" lang="en">United Kingdom</a> · <a href="/en-us/" hreflang="en-US" lang="en">United States</a> · <a href="/en-ca/" hreflang="en-CA" lang="en">Canada</a> · <a href="/it-it/" hreflang="it-IT" lang="it">Italia</a> · <a href="/fr-fr/" hreflang="fr-FR" lang="fr">France</a> · <a href="/en-au/" hreflang="en-AU" lang="en">Australia</a> · <a href="/ja-jp/" hreflang="ja-JP" lang="ja">日本</a> · <a href="/es-es/" hreflang="es-ES" lang="es">España</a> · <a href="/da-dk/" hreflang="da-DK" lang="da">Danmark</a> · <a href="/en-nz/" hreflang="en-NZ" lang="en">New Zealand</a> · <a href="/zh-cn/" hreflang="zh-CN" lang="zh">中国</a> · <a href="/sv-se/" hreflang="sv-SE" lang="sv">Sverige</a> · <a href="/nb-no/" hreflang="nb-NO" lang="nb">Norge</a> · <a href="/fi-fi/" hreflang="fi-FI" lang="fi">Suomi</a> · <a href="/en-ie/" hreflang="en-IE" lang="en">Ireland</a> · <a href="/pt-pt/" hreflang="pt-PT" lang="pt">Portugal</a> · <a href="/nl-be/" hreflang="nl-BE" lang="nl">België / Belgique</a> · <a href="/fr-lu/" hreflang="fr-LU" lang="fr">Luxembourg</a> · <a href="/en-mt/" hreflang="en-MT" lang="en">Malta</a> · <a href="/ko-kr/" hreflang="ko-KR" lang="ko">대한민국</a> · <a href="/cs-cz/" hreflang="cs-CZ" lang="cs">Česko</a> · <a href="/pl-pl/" hreflang="pl-PL" lang="pl">Polska</a> · <a href="/el-gr/" hreflang="el-GR" lang="el">Ελλάδα</a> · <a href="/hr-hr/" hreflang="hr-HR" lang="hr">Hrvatska</a> · <a href="/sl-si/" hreflang="sl-SI" lang="sl">Slovenija</a> · <a href="/hu-hu/" hreflang="hu-HU" lang="hu">Magyarország</a> · <a href="/et-ee/" hreflang="et-EE" lang="et">Eesti</a></nav></footer>
+<script data-goatcounter="https://amapps.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+</body>
+</html>
