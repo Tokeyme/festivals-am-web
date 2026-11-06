@@ -43,6 +43,10 @@ footer{max-width:760px;margin:0 auto;padding:18px 20px 30px;color:var(--mut);fon
 .bild img{display:block;width:100%;height:100%;object-fit:cover}
 .bild-svg{background:#fff;border:1px solid var(--line)}
 .bild-svg img{object-fit:contain;padding:6px}
+.foto{margin:1.1em 0 1.3em}
+.foto img{display:block;width:100%;height:auto;border-radius:12px;background:#eee}
+.foto figcaption{font-size:14px;line-height:1.45;color:var(--mut);margin-top:.45em}
+.foto .credit{display:block;font-size:12px;margin-top:.2em}
 .bild .lbl{position:absolute;right:8px;bottom:8px;background:rgba(0,0,0,.55);color:#fff;font-size:11px;line-height:1.4;padding:3px 8px;border-radius:6px}
 .nah-h{font-size:17px;color:var(--mut);font-weight:600;margin:2em 0 .5em;padding-top:1.2em;border-top:1px solid var(--line)}
 .nah-h+.card.nah{margin-top:0}
