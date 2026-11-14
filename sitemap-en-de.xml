@@ -93,8 +93,8 @@
   <url><loc>https://festam.app/en-de/festivals-in-berlin/spandauer-oktoberfest-an-der-zitadelle/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/rosenthaler-herbst-erntedankfest/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/nowkoelln-flowmarkt-20-september/</loc></url>
-  <url><loc>https://festam.app/en-de/festivals-in-berlin/berliner-herbstrummel/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/oktoberfest-am-alexanderplatz/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-berlin/berliner-herbstrummel/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/koepenicker-herbst/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/kinder-und-jugendfestival-marzahn-hellersdorf/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/tag-der-deutschen-einheit-am-brandenburger-tor/</loc></url>
@@ -117,14 +117,13 @@
   <url><loc>https://festam.app/en-de/festivals-in-berlin/wintermarkt-am-humboldt-forum/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/adventsmarkt-in-der-papierstrasse/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/novemberlicht-kiezfest-niederschoenhausen/</loc></url>
-  <url><loc>https://festam.app/en-de/festivals-in-berlin/weihnachtsmarkt-alt-tegel/</loc></url>
-  <url><loc>https://festam.app/en-de/festivals-in-berlin/erzgebirgischer-weihnachtsmarkt-im-nikolaiviertel/</loc></url>
-  <url><loc>https://festam.app/en-de/festivals-in-berlin/weihnachtsmarkt-in-der-wilmersdorfer-strasse/</loc></url>
-  <url><loc>https://festam.app/en-de/festivals-in-berlin/christmas-avenue-queerer-weihnachtsmarkt-am-nollendorfplatz/</loc></url>
-  <url><loc>https://festam.app/en-de/festivals-in-berlin/spandauer-weihnachtsmarkt-in-der-altstadt/</loc></url>
-  <url><loc>https://festam.app/en-de/festivals-in-berlin/spandauer-weihnachtstraum-am-rathaus/</loc></url>
-  <url><loc>https://festam.app/en-de/festivals-in-berlin/weihnachtsmarkt-am-schloss-charlottenburg/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-berlin/gedenkrenntag-trabrennbahn-mariendorf/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/weihnachtsmarkt-an-der-gedaechtniskirche-breitscheidplatz/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-berlin/erzgebirgischer-weihnachtsmarkt-im-nikolaiviertel/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-berlin/christmas-avenue-queerer-weihnachtsmarkt-am-nollendorfplatz/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-berlin/weinachtsmarkt-der-weinlobbyisten/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-berlin/weihnachtsmarkt-am-schloss-charlottenburg/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-berlin/weihnachtsmarkt-in-der-wilmersdorfer-strasse/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/spandauer-winterland/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/lucia-weihnachtsmarkt-in-der-kulturbrauerei/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/weihnachtsmarkt-am-alexanderplatz/</loc></url>
@@ -133,50 +132,53 @@
   <url><loc>https://festam.app/en-de/festivals-in-berlin/steglitzer-weihnachtsmarkt-vor-dem-forum-steglitz/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/weihnachtszauber-am-gendarmenmarkt/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/berliner-weihnachtszeit-am-roten-rathaus/</loc></url>
-  <url><loc>https://festam.app/en-de/festivals-in-berlin/weinachtsmarkt-der-weinlobbyisten/</loc></url>
-  <url><loc>https://festam.app/en-de/festivals-in-berlin/weihnachtsrummel-helle-mitte/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-berlin/spandauer-weihnachtstraum-am-rathaus/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-berlin/spandauer-weihnachtsmarkt-in-der-altstadt/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-berlin/weihnachtsmarkt-alt-tegel/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/weihnachtsmarkt-auf-dem-alice-salomon-platz/</loc></url>
-  <url><loc>https://festam.app/en-de/festivals-in-berlin/weihnachtsmarkt-in-den-spaeth-schen-baumschulen/</loc></url>
-  <url><loc>https://festam.app/en-de/festivals-in-berlin/nordische-maerchenweihnacht-auf-schloss-britz/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-berlin/weihnachtsrummel-helle-mitte/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/manufakturen-weihnachtsmarkt-am-schloss-schoenhausen/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-berlin/wintermuenze-in-der-alten-muenze/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-berlin/nordische-maerchenweihnacht-auf-schloss-britz/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/schwedischer-weihnachtsbasar-der-victoriagemeinde/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/kleinster-weihnachtsmarkt-in-kreuzberg/</loc></url>
-  <url><loc>https://festam.app/en-de/festivals-in-berlin/daenischer-weihnachtsmarkt-an-der-christianskirken/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/adventsmarkt-in-alt-buckow/</loc></url>
-  <url><loc>https://festam.app/en-de/festivals-in-berlin/wintermuenze-in-der-alten-muenze/</loc></url>
-  <url><loc>https://festam.app/en-de/festivals-in-berlin/adventsmarkt-auf-der-domaene-dahlem/</loc></url>
-  <url><loc>https://festam.app/en-de/festivals-in-berlin/wintermarkt-an-der-alten-frachtkantine-txl/</loc></url>
-  <url><loc>https://festam.app/en-de/festivals-in-berlin/advent-bazar-der-albert-schweitzer-stiftung-weissensee/</loc></url>
-  <url><loc>https://festam.app/en-de/festivals-in-berlin/adventsbasar-der-kaspar-hauser-stiftung/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-berlin/daenischer-weihnachtsmarkt-an-der-christianskirken/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-berlin/weihnachtsmarkt-in-den-spaeth-schen-baumschulen/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/weihnachtsmarkt-christuskirche-oberschoeneweide/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-berlin/advent-bazar-der-albert-schweitzer-stiftung-weissensee/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/karlshorster-weihnachtsmarkt-die-welt-zuhause-in-karlshorst/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-berlin/wintermarkt-an-der-alten-frachtkantine-txl/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/umwelt-und-weihnachtsmarkt-koppenplatz-und-sophienstrasse/</loc></url>
-  <url><loc>https://festam.app/en-de/festivals-in-berlin/weihnachtsmarkt-im-winterquartier-berlin/</loc></url>
-  <url><loc>https://festam.app/en-de/festivals-in-berlin/holy-shit-shopping-design-flohmarkt-zum-advent/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/weihnachtsmarkt-auf-der-trabrennbahn-karlshorst/</loc></url>
-  <url><loc>https://festam.app/en-de/festivals-in-berlin/adventsmarkt-an-hanff-s-ruh/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-berlin/holy-shit-shopping-design-flohmarkt-zum-advent/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/adventsbasar-in-der-jva-tegel/</loc></url>
-  <url><loc>https://festam.app/en-de/festivals-in-berlin/weddingmarkt-christmas-edition-am-leopoldplatz/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-berlin/adventsmarkt-an-hanff-s-ruh/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-berlin/adventsmarkt-auf-der-domaene-dahlem/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-berlin/adventsbasar-der-kaspar-hauser-stiftung/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-berlin/weihnachtsmarkt-im-winterquartier-berlin/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/adventsmarkt-am-karl-august-platz/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/adventsoekomarkt-am-kollwitzplatz/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/adventsmarkt-im-schloss-hohenschoenhausen/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/weihnachtsmarkt-auf-dem-winterfeldtplatz/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-berlin/grunewalder-weihnachtsmarkt-rund-um-die-grunewaldkirche/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/adventsmarkt-alt-marzahn/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/adventsbasar-der-kirchengemeinde-luebars/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/lichtermarkt-am-rathaus-lichtenberg/</loc></url>
-  <url><loc>https://festam.app/en-de/festivals-in-berlin/lichtenrader-lichtermarkt/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/kunsthandwerklicher-weihnachtsmarkt-am-mexikoplatz/</loc></url>
-  <url><loc>https://festam.app/en-de/festivals-in-berlin/grunewalder-weihnachtsmarkt-rund-um-die-grunewaldkirche/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-berlin/lichtenrader-lichtermarkt/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-berlin/weddingmarkt-christmas-edition-am-leopoldplatz/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/weihnachtsmarkt-in-moabit/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/lebendiger-adventskalender-wilhelmstadt/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/alt-rixdorfer-weihnachtsmarkt/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/weihnachtsmarkt-an-der-dorfkirche-marienfelde/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/weihnachtsmarkt-auf-lehmanns-bauernhof/</loc></url>
-  <url><loc>https://festam.app/en-de/festivals-in-berlin/sozialer-weihnachtsmarkt-im-stadtschloss-moabit/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-berlin/norwegischer-julebasar/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-berlin/altglienicker-adventsmarkt/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/oberschoener-weihnachtsmarkt/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/bucher-weihnachtszauber/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-berlin/sozialer-weihnachtsmarkt-im-stadtschloss-moabit/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/kunsthandwerklicher-weihnachtsmarkt-frohnau/</loc></url>
-  <url><loc>https://festam.app/en-de/festivals-in-berlin/norwegischer-julebasar/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/weihnachtsmarkt-in-alt-steglitz/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/weihnachtsbasar-in-britz/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/spooky-christmas-market-im-goerzwerk/</loc></url>
@@ -184,19 +186,18 @@
   <url><loc>https://festam.app/en-de/festivals-in-berlin/christsternmarkt-an-der-lankwitz-kirche/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/maerchenhafter-weihnachtsmarkt-am-jagdschloss-grunewald/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/pankower-adventsmarkt-in-den-heynhoefen/</loc></url>
-  <url><loc>https://festam.app/en-de/festivals-in-berlin/altglienicker-adventsmarkt/</loc></url>
-  <url><loc>https://festam.app/en-de/festivals-in-berlin/der-japanische-weihnachtsmarkt-im-festsaal-kreuzberg/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/advent-im-forstamt-tegel/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/weihnachtsmarkt-auf-dem-naturhof-malchow/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/weihnachtsfest-im-tierheim-berlin/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/adventsmarkt-an-der-dorfkirche-friedrichsfelde/</loc></url>
-  <url><loc>https://festam.app/en-de/festivals-in-berlin/adventsmeile-in-der-leonhardtstrasse/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-berlin/der-japanische-weihnachtsmarkt-im-festsaal-kreuzberg/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/nikolausmarkt-auf-dem-kinderbauernhof-pinke-panke/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/adventsmarkt-im-oekowerk-am-teufelssee/</loc></url>
-  <url><loc>https://festam.app/en-de/festivals-in-berlin/kiezweihnacht-im-samariterkiez/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-berlin/adventsmeile-in-der-leonhardtstrasse/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/weihnachtsmarkt-rund-um-schloss-biesdorf/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/koepenick-die-weihnachtsinsel/</loc></url>
-  <url><loc>https://festam.app/en-de/festivals-in-berlin/weihnachtsmarkt-auf-der-dicken-linda/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-berlin/kiezweihnacht-im-samariterkiez/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-berlin/weihnachtsmarkt-to-go-im-kranoldkiez/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/weinachtsmarkt-am-ludwig-beck-platz/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/weihnachtsrodeo-design-weihnachtsmarkt-im-colosseum/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/rudower-weihnachtsmeile/</loc></url>
@@ -204,7 +205,7 @@
   <url><loc>https://festam.app/en-de/festivals-in-berlin/weihnachtsmarkt-am-orankesee/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/solidarischer-wintermarkt-im-goerlitzer-park/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/weihnachtszauber-in-blankenburg/</loc></url>
-  <url><loc>https://festam.app/en-de/festivals-in-berlin/weihnachtsmarkt-to-go-im-kranoldkiez/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-berlin/weihnachtsmarkt-auf-der-dicken-linda/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/weihnachtshaus-in-der-villa-donnersmarck/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/weihnachtsflohmarkt-am-kranoldplatz/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/merry-markthalle-in-der-markthalle-neun/</loc></url>
@@ -213,11 +214,16 @@
   <url><loc>https://festam.app/en-de/festivals-in-berlin/machmit-markt-bei-mampe/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/christmas-in-westend/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/silvesterparty-am-brandenburger-tor/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-berlin/saisonauftakt-trabrennbahn-berlin-mariendorf/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/internationale-filmfestspiele-berlin/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-berlin/fritz-brandt-rennen/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/rocktreff/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/lesbisch-schwules-stadtfest-am-nollendorfplatz/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-berlin/derby-meeting-berlin-mariendorf/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/lange-nacht-der-museen/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-berlin/lichtenberger-familienrenntag/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/berlin-art-week/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-berlin/breeders-crown-berlin-mariendorf/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-bonn/kirmes-und-dorffest-endenich/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-bonn/weinfest-auf-dem-muensterplatz/</loc></url>
@@ -270,6 +276,7 @@
   <url><loc>https://festam.app/en-de/festivals-in-dresden/prohliser-herbstfest/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-dresden/jazztage-dresden/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-dresden/dresden-marathon/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-dresden/renntag-am-buss-und-bettag/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-dresden/dresdner-striezelmarkt/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-dresden/weihnachtsmarkt-an-der-frauenkirche-advent-auf-dem-neumarkt/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-dresden/augustusmarkt-neustaedter-advent/</loc></url>
@@ -280,6 +287,7 @@
   <url><loc>https://festam.app/en-de/festivals-in-dresden/romantischer-weihnachtsmarkt-am-dresdner-schloss/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-dresden/loschwitzer-weihnachtsmarkt-am-elbhang/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-dresden/dresdner-stollenfest/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-dresden/advents-galopprennen/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-dresden/semperopernball/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-dresden/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-duesseldorf/groesste-kirmes-am-rhein-rheinkirmes/</loc></url>
@@ -297,18 +305,26 @@
   <url><loc>https://festam.app/en-de/festivals-in-duesseldorf/bilker-martinszug/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-duesseldorf/hoppeditz-erwachen/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-duesseldorf/martinszug-suedliches-gerresheim/</loc></url>
-  <url><loc>https://festam.app/en-de/festivals-in-duesseldorf/martinszug-noerdliches-gerresheim/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-duesseldorf/kaiserswerther-winterdorf/</loc></url>
-  <url><loc>https://festam.app/en-de/festivals-in-duesseldorf/duesseldorfer-weihnachtsmarkt/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-duesseldorf/martinszug-noerdliches-gerresheim/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-duesseldorf/weihnachtsmarkt-schloss-benrath/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-duesseldorf/weihnachtsmarkt-auf-der-nordstrasse/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-duesseldorf/weihnachtsmarkt-vor-den-duesseldorf-arcaden-in-bilk/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-duesseldorf/duesseldorfer-weihnachtsmarkt/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-duesseldorf/weihnachtsmarkt-am-belsenplatz/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-duesseldorf/altweiber-am-rathaus/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-duesseldorf/tonnenrennen-niederkassel/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-duesseldorf/duesseldorfer-rosenmontagszug/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-duesseldorf/hoppeditz-beerdigung/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-duesseldorf/fortuna-renntag/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-duesseldorf/duesseldorf-international-race-day/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-duesseldorf/koenigsallee-renntag/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-duesseldorf/mittsommer-renntag/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-duesseldorf/duesseldorfer-frankreichfest/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-duesseldorf/henkel-preis-der-diana/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-duesseldorf/grosser-sparkassen-familientag/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-duesseldorf/gourmet-renntag/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-duesseldorf/renntag-der-landeshauptstadt-duesseldorf/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-duesseldorf/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-erfurt/lichterfest-im-egapark/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-erfurt/esstival/</loc></url>
@@ -461,18 +477,18 @@
   <url><loc>https://festam.app/en-de/festivals-in-hamburg/hamburger-winterdom/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-hamburg/kunsthandwerkermarkt-im-niendorfer-buergerhaus/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-hamburg/santa-pauli-hamburgs-suendigster-weihnachtsmarkt/</loc></url>
-  <url><loc>https://festam.app/en-de/festivals-in-hamburg/weihnachtsmarkt-an-der-apostelkirche/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-hamburg/weihnachtsmarkt-osterstrasse/</loc></url>
-  <url><loc>https://festam.app/en-de/festivals-in-hamburg/weihnachtsmarkt-barmbek/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-hamburg/weihnachtsmarkt-an-der-apostelkirche/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-hamburg/winterhuder-weihnachtstreff/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-hamburg/weihnachtsmarkt-barmbek/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-hamburg/nachtflohmarkt-in-der-gleishalle-oberhafen/</loc></url>
-  <url><loc>https://festam.app/en-de/festivals-in-hamburg/christgrindelmarkt/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-hamburg/weihnachtsmarkt-spitalerstrasse/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-hamburg/weihnachtsmarkt-hafencity-am-ueberseeboulevard/</loc></url>
-  <url><loc>https://festam.app/en-de/festivals-in-hamburg/winter-pride-st-georg/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-hamburg/christgrindelmarkt/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-hamburg/weisser-zauber-auf-dem-jungfernstieg/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-hamburg/weihnachtlicher-gaensemarkt/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-hamburg/weihnachtsmarkt-an-der-st-petri-kirche/</loc></url>
-  <url><loc>https://festam.app/en-de/festivals-in-hamburg/weisser-zauber-auf-dem-jungfernstieg/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-hamburg/winter-pride-st-georg/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-hamburg/eppendorfer-weihnachtsbummel/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-hamburg/harburger-weihnachtsmarkt/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-hamburg/bergedorfer-weihnachtsmarkt/</loc></url>
@@ -493,6 +509,7 @@
   <url><loc>https://festam.app/en-de/festivals-in-hamburg/lessingtage/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-hamburg/frauenklamottenflohmarkt-februar/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-hamburg/stadtteilfest-kulturbewegt-barmbek/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-hamburg/idee-derby-meeting/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-hamburg/schlagermove-hamburg/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-hamburg/spielbudenfestival-st-pauli/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-hamburg/hamburg-pride-christopher-street-day/</loc></url>
@@ -582,8 +599,8 @@
   <url><loc>https://festam.app/en-de/festivals-in-cologne/santas-weihnachtsmarkt-im-mediapark/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-cologne/heinzels-wintermaerchen/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-cologne/weihnachtsbasar-auf-dem-josef-esser-platz/</loc></url>
-  <url><loc>https://festam.app/en-de/festivals-in-cologne/advent-am-geisselmarkt/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-cologne/waldweihnacht-auf-gut-leidenhausen/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-cologne/advent-am-geisselmarkt/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-cologne/deutzer-adventsklaaf/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-cologne/weihnachtsmarkt-an-der-lutherkirche/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-cologne/koelner-geisterzug/</loc></url>
@@ -591,6 +608,12 @@
   <url><loc>https://festam.app/en-de/festivals-in-cologne/funkenbiwak/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-cologne/schull-un-veedelszoech/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-cologne/koelner-rosenmontagszug/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-cologne/fc-renntag-grand-prix-aufgalopp/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-cologne/german-guineas/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-cologne/union-rennen/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-cologne/familien-renntag-bbag-auktionsrennen/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-cologne/preis-von-europa/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-cologne/benefiz-renntag-der-stiftung-vereint-preis-des-winterfavoriten/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-cologne/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-landshut/landshuter-altstadtfest/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-landshut/dorffest-der-feuerwehr-frauenberg/</loc></url>
@@ -731,33 +754,39 @@
   <url><loc>https://festam.app/en-de/festivals-in-munich/hans-sachs-strassenfest/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-munich/superbloom-festival/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-munich/allacher-weinfest/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-munich/perlacher-kirta/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-munich/berg-am-laimer-stadtviertel-fest/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-munich/bahnhofsfest/</loc></url>
-  <url><loc>https://festam.app/en-de/festivals-in-munich/perlacher-kirta/</loc></url>
-  <url><loc>https://festam.app/en-de/festivals-in-munich/auer-kirchweihdult/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-munich/lange-nacht-der-muenchner-museen/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-munich/auer-kirchweihdult/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-munich/winterwunderwerk-im-werksviertel-mitte/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-munich/weihnachtszauberwald-muenchen-bogenhausen/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-munich/muenchner-buecherschau/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-munich/weihnachtsdorf-im-kaiserhof-der-residenz/</loc></url>
-  <url><loc>https://festam.app/en-de/festivals-in-munich/muenchner-christkindlmarkt-am-marienplatz/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-munich/pink-christmas-am-stephansplatz/</loc></url>
-  <url><loc>https://festam.app/en-de/festivals-in-munich/christkindlmarkt-am-sendlinger-tor/</loc></url>
-  <url><loc>https://festam.app/en-de/festivals-in-munich/mittelaltermarkt-am-wittelsbacherplatz/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-munich/kripperlmarkt/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-munich/muenchner-christkindlmarkt-am-marienplatz/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-munich/christkindlmarkt-am-sendlinger-tor/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-munich/weihnachtsmarkt-am-chinesischen-turm/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-munich/neuhauser-weihnachtsmarkt/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-munich/winterzauber-auf-dem-viktualienmarkt/</loc></url>
-  <url><loc>https://festam.app/en-de/festivals-in-munich/weihnachtsmarkt-am-chinesischen-turm/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-munich/mittelaltermarkt-am-wittelsbacherplatz/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-munich/christkindlmarkt-am-luise-kiesselbach-platz/</loc></url>
-  <url><loc>https://festam.app/en-de/festivals-in-munich/haidhauser-weihnachtsmarkt/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-munich/tollwood-winterfestival/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-munich/haidhauser-weihnachtsmarkt/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-munich/maerchenbazar/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-munich/winterzauber-gans-am-wasser/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-munich/schwabinger-weihnachtsmarkt-an-der-muenchner-freiheit/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-munich/pasinger-christkindlmarkt/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-munich/tanz-der-marktfrauen-am-viktualienmarkt/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-munich/saisonauftakt-trabrennbahn-muenchen-daglfing/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-munich/muenchener-saisonstart/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-munich/allianz-familienfest/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-munich/haeusler-after-work-renntag/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-munich/magdalenenfest/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-munich/kocherlball/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-munich/grosser-dallmayr-preis/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-munich/herbst-renntag-galopprennbahn-muenchen-riem/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-munich/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-muenster/hansafest/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-muenster/hammer-fez/</loc></url>
