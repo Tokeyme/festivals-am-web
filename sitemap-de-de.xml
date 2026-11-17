@@ -985,7 +985,6 @@
   <url><loc>https://festam.app/de-de/feste-in-berlin/adventsmarkt-alt-marzahn/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-berlin/lichtermarkt-am-rathaus-lichtenberg/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-berlin/kunsthandwerklicher-weihnachtsmarkt-am-mexikoplatz/</loc></url>
-  <url><loc>https://festam.app/de-de/feste-in-berlin/weihnachtsmarkt-in-moabit/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-berlin/lebendiger-adventskalender-wilhelmstadt/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-berlin/alt-rixdorfer-weihnachtsmarkt/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-berlin/weihnachtsmarkt-an-der-dorfkirche-marienfelde/</loc></url>
@@ -1273,6 +1272,7 @@
   <url><loc>https://festam.app/de-de/feste-in-bremen/buergerfest-zum-tag-der-deutschen-einheit/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-bremen/bremer-freimarkt-ischa-freimaak/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-bremen/findorffer-winterdorf/</loc></url>
+  <url><loc>https://festam.app/de-de/feste-in-bremen/vegesacker-winterspass/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-bremen/winterzauber-am-weserpark/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-bremen/winterstrand-am-lankenauer-hoeft/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-bremen/bremer-weihnachtsmarkt/</loc></url>
@@ -1280,7 +1280,6 @@
   <url><loc>https://festam.app/de-de/feste-in-bremen/winterwald-im-ansgari-quartier/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-bremen/skandinavischer-weihnachtsmarkt-in-der-lloyd-passage/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-bremen/lichter-der-neustadt/</loc></url>
-  <url><loc>https://festam.app/de-de/feste-in-bremen/vegesacker-winterspass/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-bremen/hafenwiehnacht/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-bremen/lesumer-weihnachtsmarkt/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-bremen/burgfrieden-auf-burg-blomendal/</loc></url>
@@ -1527,9 +1526,9 @@
   <url><loc>https://festam.app/de-de/feste-in-cuxhaven/mahrenholz-beachvolleyball-cup/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-cuxhaven/cuxhavener-hafentage/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-cuxhaven/cuxhavener-winzerfest/</loc></url>
-  <url><loc>https://festam.app/de-de/feste-in-cuxhaven/weihnachtszauber-schloss-ritzebuettel/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-cuxhaven/cuxhavener-winterzauber/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-cuxhaven/winterzauber/</loc></url>
+  <url><loc>https://festam.app/de-de/feste-in-cuxhaven/weihnachtszauber-schloss-ritzebuettel/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-cuxhaven/weihnachtsmarkt-am-schloss-ritzebuettel/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-cuxhaven/duhner-festtagsmarkt/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-cuxhaven/neujahrsanbaden/</loc></url>
@@ -1873,10 +1872,10 @@
   <url><loc>https://festam.app/de-de/feste-in-duesseldorf/bilker-martinszug/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-duesseldorf/hoppeditz-erwachen/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-duesseldorf/martinszug-suedliches-gerresheim/</loc></url>
+  <url><loc>https://festam.app/de-de/feste-in-duesseldorf/weihnachtsmarkt-auf-der-nordstrasse/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-duesseldorf/kaiserswerther-winterdorf/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-duesseldorf/martinszug-noerdliches-gerresheim/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-duesseldorf/weihnachtsmarkt-schloss-benrath/</loc></url>
-  <url><loc>https://festam.app/de-de/feste-in-duesseldorf/weihnachtsmarkt-auf-der-nordstrasse/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-duesseldorf/weihnachtsmarkt-vor-den-duesseldorf-arcaden-in-bilk/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-duesseldorf/duesseldorfer-weihnachtsmarkt/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-duesseldorf/weihnachtsmarkt-am-belsenplatz/</loc></url>
@@ -4248,12 +4247,12 @@
   <url><loc>https://festam.app/de-de/feste-in-marburg/pflanzenmarkt-im-botanischen-garten/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-marburg/innenstadtkirmes/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-marburg/marburger-kunsthandwerkermarkt/</loc></url>
+  <url><loc>https://festam.app/de-de/feste-in-marburg/weihnachtsmarkt-im-bueckingsgarten/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-marburg/weihnachtsstadt-marburg/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-marburg/marburg-by-night/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-marburg/weihnachtsmarkt-an-der-elisabethkirche/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-marburg/adventsmarkt-auf-dem-marktplatz/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-marburg/weihnachtsmarkt-auf-dem-hofgut-dagobertshausen/</loc></url>
-  <url><loc>https://festam.app/de-de/feste-in-marburg/weihnachtsmarkt-im-bueckingsgarten/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-marburg/karnevalsparty-am-rosenmontag-mit-stehendem-festzug/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-marburg/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-marienberg/marienberger-weihnachtsmarkt/</loc></url>
@@ -5655,7 +5654,6 @@
   <url><loc>https://festam.app/de-de/feste-in-rosenheim/spektakel-internationales-strassenkunstfestival/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-rosenheim/rosenheimer-erntedankfest/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-rosenheim/mantelsonntag-mit-simon-und-judaeimarkt/</loc></url>
-  <url><loc>https://festam.app/de-de/feste-in-rosenheim/adventsmarkt-pang/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-rosenheim/rosenheimer-christkindlmarkt/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-rosenheim/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-rostock/kunsthandwerkermarkt-warnemuende-kirchenplatz/</loc></url>
@@ -6207,7 +6205,6 @@
   <url><loc>https://festam.app/de-de/feste-in-solingen/kunst-im-herbst/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-solingen/basar-der-kunsthandwerker/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-solingen/gruenewalder-adventstraum-weihnachtsmarkt-schloss-gruenewald/</loc></url>
-  <url><loc>https://festam.app/de-de/feste-in-solingen/hoehscheider-weihnachtsmarkt/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-solingen/weihnachtsmarkt-botanischer-garten/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-solingen/kleinster-zoch-von-ohligs/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-solingen/rosenmontagszug/</loc></url>

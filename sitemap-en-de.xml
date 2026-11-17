@@ -167,7 +167,6 @@
   <url><loc>https://festam.app/en-de/festivals-in-berlin/adventsmarkt-alt-marzahn/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/lichtermarkt-am-rathaus-lichtenberg/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/kunsthandwerklicher-weihnachtsmarkt-am-mexikoplatz/</loc></url>
-  <url><loc>https://festam.app/en-de/festivals-in-berlin/weihnachtsmarkt-in-moabit/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/lebendiger-adventskalender-wilhelmstadt/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/alt-rixdorfer-weihnachtsmarkt/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-berlin/weihnachtsmarkt-an-der-dorfkirche-marienfelde/</loc></url>
@@ -237,6 +236,7 @@
   <url><loc>https://festam.app/en-de/festivals-in-bremen/buergerfest-zum-tag-der-deutschen-einheit/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-bremen/bremer-freimarkt-ischa-freimaak/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-bremen/findorffer-winterdorf/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-bremen/vegesacker-winterspass/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-bremen/winterzauber-am-weserpark/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-bremen/winterstrand-am-lankenauer-hoeft/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-bremen/bremer-weihnachtsmarkt/</loc></url>
@@ -244,7 +244,6 @@
   <url><loc>https://festam.app/en-de/festivals-in-bremen/winterwald-im-ansgari-quartier/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-bremen/skandinavischer-weihnachtsmarkt-in-der-lloyd-passage/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-bremen/lichter-der-neustadt/</loc></url>
-  <url><loc>https://festam.app/en-de/festivals-in-bremen/vegesacker-winterspass/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-bremen/hafenwiehnacht/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-bremen/lesumer-weihnachtsmarkt/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-bremen/burgfrieden-auf-burg-blomendal/</loc></url>
@@ -304,10 +303,10 @@
   <url><loc>https://festam.app/en-de/festivals-in-duesseldorf/bilker-martinszug/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-duesseldorf/hoppeditz-erwachen/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-duesseldorf/martinszug-suedliches-gerresheim/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-duesseldorf/weihnachtsmarkt-auf-der-nordstrasse/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-duesseldorf/kaiserswerther-winterdorf/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-duesseldorf/martinszug-noerdliches-gerresheim/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-duesseldorf/weihnachtsmarkt-schloss-benrath/</loc></url>
-  <url><loc>https://festam.app/en-de/festivals-in-duesseldorf/weihnachtsmarkt-auf-der-nordstrasse/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-duesseldorf/weihnachtsmarkt-vor-den-duesseldorf-arcaden-in-bilk/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-duesseldorf/duesseldorfer-weihnachtsmarkt/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-duesseldorf/weihnachtsmarkt-am-belsenplatz/</loc></url>
@@ -724,12 +723,12 @@
   <url><loc>https://festam.app/en-de/festivals-in-marburg/pflanzenmarkt-im-botanischen-garten/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-marburg/innenstadtkirmes/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-marburg/marburger-kunsthandwerkermarkt/</loc></url>
+  <url><loc>https://festam.app/en-de/festivals-in-marburg/weihnachtsmarkt-im-bueckingsgarten/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-marburg/weihnachtsstadt-marburg/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-marburg/marburg-by-night/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-marburg/weihnachtsmarkt-an-der-elisabethkirche/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-marburg/adventsmarkt-auf-dem-marktplatz/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-marburg/weihnachtsmarkt-auf-dem-hofgut-dagobertshausen/</loc></url>
-  <url><loc>https://festam.app/en-de/festivals-in-marburg/weihnachtsmarkt-im-bueckingsgarten/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-marburg/karnevalsparty-am-rosenmontag-mit-stehendem-festzug/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-marburg/</loc></url>
   <url><loc>https://festam.app/en-de/festivals-in-meissen/mit-zahnrad-und-zylinder-steampunk-festival-meissen/</loc></url>
