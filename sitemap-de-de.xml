@@ -407,7 +407,6 @@
   <url><loc>https://festam.app/de-de/feste-in-bad-homburg/igo-herbstmarkt/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-bad-homburg/erntedankmarkt-bad-homburg/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-bad-homburg/kulturnacht-bad-homburg/</loc></url>
-  <url><loc>https://festam.app/de-de/feste-in-bad-homburg/kirdorfer-weihnachtsmarkt/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-bad-homburg/engelsgefluester/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-bad-homburg/nikolaus-parade-bad-homburg/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-bad-honnef/rhoendorfer-weinfest/</loc></url>
@@ -527,8 +526,8 @@
   <url><loc>https://festam.app/de-de/feste-in-bad-neustadt-an-der-saale/neuschter-sternenwoche/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-bad-oeynhausen/weinfest/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-bad-oeynhausen/herbst-und-bauernmarkt/</loc></url>
-  <url><loc>https://festam.app/de-de/feste-in-bad-oeynhausen/lichter-im-park/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-bad-oeynhausen/weihnachtsmarkt-bad-oeynhausen/</loc></url>
+  <url><loc>https://festam.app/de-de/feste-in-bad-oeynhausen/lichter-im-park/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-bad-oeynhausen/fruehjahrsmarkt/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-bad-oeynhausen/innenstadtfete/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-bad-oeynhausen/parklichter/</loc></url>
@@ -855,15 +854,15 @@
   <url><loc>https://festam.app/de-de/feste-in-bergisch-gladbach/laurentiuskirmes/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-bergisch-gladbach/kunstbasar-terre-des-hommes/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-bergisch-gladbach/schloss-bensberg-unikat-weihnachtsmarkt/</loc></url>
+  <url><loc>https://festam.app/de-de/feste-in-berlin/stadtteilfest-heerstrasse/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-berlin/rooftop-nachtflohmarkt-gesundbrunnen-center/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-berlin/heatwave-festival/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-berlin/48-stunden-neukoelln/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-berlin/wasserfest-rummelsburger-bucht/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-berlin/dein-sommer-im-park-park-am-buschkrug/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-berlin/sommerfest-am-kandeler-weg/</loc></url>
-  <url><loc>https://festam.app/de-de/feste-in-berlin/stadtteilfest-heerstrasse/</loc></url>
-  <url><loc>https://festam.app/de-de/feste-in-berlin/gazino-und-tuerkischer-basar/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-berlin/schoeneweider-brueckenfest/</loc></url>
+  <url><loc>https://festam.app/de-de/feste-in-berlin/gazino-und-tuerkischer-basar/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-berlin/culture-meets-garden/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-berlin/berliner-volksfestsommer/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-berlin/kiez-und-kinderfest-auf-dem-comeniusplatz/</loc></url>
@@ -894,8 +893,8 @@
   <url><loc>https://festam.app/de-de/feste-in-berlin/spandauer-oktoberfest-an-der-zitadelle/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-berlin/rosenthaler-herbst-erntedankfest/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-berlin/nowkoelln-flowmarkt-20-september/</loc></url>
-  <url><loc>https://festam.app/de-de/feste-in-berlin/oktoberfest-am-alexanderplatz/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-berlin/berliner-herbstrummel/</loc></url>
+  <url><loc>https://festam.app/de-de/feste-in-berlin/oktoberfest-am-alexanderplatz/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-berlin/koepenicker-herbst/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-berlin/kinder-und-jugendfestival-marzahn-hellersdorf/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-berlin/tag-der-deutschen-einheit-am-brandenburger-tor/</loc></url>
@@ -912,51 +911,50 @@
   <url><loc>https://festam.app/de-de/feste-in-berlin/novemberlicht-kiezfest-niederschoenhausen/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-berlin/adventsbasar-in-der-jva-tegel/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-berlin/gedenkrenntag-trabrennbahn-mariendorf/</loc></url>
-  <url><loc>https://festam.app/de-de/feste-in-berlin/manufakturen-weihnachtsmarkt-am-schloss-schoenhausen/</loc></url>
-  <url><loc>https://festam.app/de-de/feste-in-berlin/schwedischer-weihnachtsbasar-der-victoriagemeinde/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-berlin/kleinster-weihnachtsmarkt-in-kreuzberg/</loc></url>
-  <url><loc>https://festam.app/de-de/feste-in-berlin/adventsmarkt-in-alt-buckow/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-berlin/daenischer-weihnachtsmarkt-an-der-christianskirken/</loc></url>
+  <url><loc>https://festam.app/de-de/feste-in-berlin/adventsmarkt-in-alt-buckow/</loc></url>
+  <url><loc>https://festam.app/de-de/feste-in-berlin/schwedischer-weihnachtsbasar-der-victoriagemeinde/</loc></url>
+  <url><loc>https://festam.app/de-de/feste-in-berlin/manufakturen-weihnachtsmarkt-am-schloss-schoenhausen/</loc></url>
+  <url><loc>https://festam.app/de-de/feste-in-berlin/weihnachtsmarkt-in-den-spaeth-schen-baumschulen/</loc></url>
+  <url><loc>https://festam.app/de-de/feste-in-berlin/weihnachtsmarkt-auf-der-trabrennbahn-karlshorst/</loc></url>
+  <url><loc>https://festam.app/de-de/feste-in-berlin/wintermarkt-an-der-alten-frachtkantine-txl/</loc></url>
+  <url><loc>https://festam.app/de-de/feste-in-berlin/advent-bazar-der-albert-schweitzer-stiftung-weissensee/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-berlin/adventsbasar-der-kaspar-hauser-stiftung/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-berlin/weihnachtsmarkt-christuskirche-oberschoeneweide/</loc></url>
-  <url><loc>https://festam.app/de-de/feste-in-berlin/wintermarkt-an-der-alten-frachtkantine-txl/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-berlin/karlshorster-weihnachtsmarkt-die-welt-zuhause-in-karlshorst/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-berlin/holy-shit-shopping-design-flohmarkt-zum-advent/</loc></url>
-  <url><loc>https://festam.app/de-de/feste-in-berlin/weihnachtsmarkt-in-den-spaeth-schen-baumschulen/</loc></url>
-  <url><loc>https://festam.app/de-de/feste-in-berlin/christsternmarkt-an-der-lankwitz-kirche/</loc></url>
-  <url><loc>https://festam.app/de-de/feste-in-berlin/weihnachtsmarkt-auf-der-trabrennbahn-karlshorst/</loc></url>
-  <url><loc>https://festam.app/de-de/feste-in-berlin/advent-bazar-der-albert-schweitzer-stiftung-weissensee/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-berlin/adventsmarkt-an-hanff-s-ruh/</loc></url>
-  <url><loc>https://festam.app/de-de/feste-in-berlin/lichtenrader-lichtermarkt/</loc></url>
-  <url><loc>https://festam.app/de-de/feste-in-berlin/adventsmarkt-im-schloss-hohenschoenhausen/</loc></url>
+  <url><loc>https://festam.app/de-de/feste-in-berlin/christsternmarkt-an-der-lankwitz-kirche/</loc></url>
+  <url><loc>https://festam.app/de-de/feste-in-berlin/grunewalder-weihnachtsmarkt-rund-um-die-grunewaldkirche/</loc></url>
+  <url><loc>https://festam.app/de-de/feste-in-berlin/adventsmarkt-am-karl-august-platz/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-berlin/adventsmarkt-alt-marzahn/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-berlin/adventsbasar-der-kirchengemeinde-luebars/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-berlin/lichtermarkt-am-rathaus-lichtenberg/</loc></url>
-  <url><loc>https://festam.app/de-de/feste-in-berlin/adventsmarkt-am-karl-august-platz/</loc></url>
-  <url><loc>https://festam.app/de-de/feste-in-berlin/grunewalder-weihnachtsmarkt-rund-um-die-grunewaldkirche/</loc></url>
-  <url><loc>https://festam.app/de-de/feste-in-berlin/alt-rixdorfer-weihnachtsmarkt/</loc></url>
-  <url><loc>https://festam.app/de-de/feste-in-berlin/weihnachtsmarkt-auf-lehmanns-bauernhof/</loc></url>
+  <url><loc>https://festam.app/de-de/feste-in-berlin/lichtenrader-lichtermarkt/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-berlin/weihnachtsmarkt-an-der-dorfkirche-marienfelde/</loc></url>
-  <url><loc>https://festam.app/de-de/feste-in-berlin/pankower-adventsmarkt-in-den-heynhoefen/</loc></url>
-  <url><loc>https://festam.app/de-de/feste-in-berlin/maerchenhafter-weihnachtsmarkt-am-jagdschloss-grunewald/</loc></url>
+  <url><loc>https://festam.app/de-de/feste-in-berlin/weihnachtsmarkt-auf-lehmanns-bauernhof/</loc></url>
+  <url><loc>https://festam.app/de-de/feste-in-berlin/alt-rixdorfer-weihnachtsmarkt/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-berlin/norwegischer-julebasar/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-berlin/altglienicker-adventsmarkt/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-berlin/oberschoener-weihnachtsmarkt/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-berlin/bucher-weihnachtszauber/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-berlin/sozialer-weihnachtsmarkt-im-stadtschloss-moabit/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-berlin/kunsthandwerklicher-weihnachtsmarkt-frohnau/</loc></url>
+  <url><loc>https://festam.app/de-de/feste-in-berlin/weihnachtsmarkt-in-alt-steglitz/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-berlin/weihnachtsbasar-in-britz/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-berlin/spooky-christmas-market-im-goerzwerk/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-berlin/alt-kaulsdorfer-weihnachtsmarkt/</loc></url>
-  <url><loc>https://festam.app/de-de/feste-in-berlin/weihnachtsmarkt-in-alt-steglitz/</loc></url>
-  <url><loc>https://festam.app/de-de/feste-in-berlin/der-japanische-weihnachtsmarkt-im-festsaal-kreuzberg/</loc></url>
+  <url><loc>https://festam.app/de-de/feste-in-berlin/maerchenhafter-weihnachtsmarkt-am-jagdschloss-grunewald/</loc></url>
+  <url><loc>https://festam.app/de-de/feste-in-berlin/pankower-adventsmarkt-in-den-heynhoefen/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-berlin/advent-im-forstamt-tegel/</loc></url>
+  <url><loc>https://festam.app/de-de/feste-in-berlin/der-japanische-weihnachtsmarkt-im-festsaal-kreuzberg/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-berlin/weihnachtsmarkt-auf-dem-naturhof-malchow/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-berlin/weihnachtsfest-im-tierheim-berlin/</loc></url>
-  <url><loc>https://festam.app/de-de/feste-in-berlin/adventsmarkt-im-oekowerk-am-teufelssee/</loc></url>
+  <url><loc>https://festam.app/de-de/feste-in-berlin/adventsmarkt-an-der-dorfkirche-friedrichsfelde/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-berlin/adventsmeile-in-der-leonhardtstrasse/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-berlin/nikolausmarkt-auf-dem-kinderbauernhof-pinke-panke/</loc></url>
-  <url><loc>https://festam.app/de-de/feste-in-berlin/adventsmarkt-an-der-dorfkirche-friedrichsfelde/</loc></url>
+  <url><loc>https://festam.app/de-de/feste-in-berlin/adventsmarkt-im-oekowerk-am-teufelssee/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-berlin/weihnachtsmarkt-rund-um-schloss-biesdorf/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-berlin/koepenick-die-weihnachtsinsel/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-berlin/weihnachtsmarkt-to-go-im-kranoldkiez/</loc></url>
@@ -1028,7 +1026,6 @@
   <url><loc>https://festam.app/de-de/feste-in-bielefeld/bielefelder-oktoberfest/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-bielefeld/vorweihnachtlicher-markt/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-bielefeld/weihnachtsmarkt-der-sennestaedter-vereine/</loc></url>
-  <url><loc>https://festam.app/de-de/feste-in-bielefeld/weihnachtsmarkt-der-sennestaedter-vereine-und-foerdervereine/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-bielefeld/wintermarkt-halhof/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-bietigheim-bissingen/sandfest/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-bietigheim-bissingen/goeckelesfest/</loc></url>
@@ -1094,9 +1091,7 @@
   <url><loc>https://festam.app/de-de/feste-in-bochum/grosser-kinderflohmarkt-wattenscheid/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-bochum/wattenscheider-weinfest/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-bochum/adventsmarkt-der-moeglichkeiten/</loc></url>
-  <url><loc>https://festam.app/de-de/feste-in-bochum/adventsmarkt-auf-der-zeche-hannover/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-bochum/weihnachtsmarkt-st-franziskus/</loc></url>
-  <url><loc>https://festam.app/de-de/feste-in-bochum/dahlhauser-weihnachtsmarkt/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-bochum/weihnachtsmarkt-langendreer/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-bochum/weihnachtsmarkt-an-der-stiepeler-dorfkirche/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-bodenmais/kunsthandwerk-adventsmarkt/</loc></url>
@@ -1465,7 +1460,6 @@
   <url><loc>https://festam.app/de-de/feste-in-demmin/lichter-adventsmarkt/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-demmin/weihnachtsmarkt-hansestadt-demmin/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-dessau-rosslau/leopoldsfest-stadtfest-dessau/</loc></url>
-  <url><loc>https://festam.app/de-de/feste-in-dessau-rosslau/wichtelmarkt-in-kochstedt/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-dessau-rosslau/weihnachtsmarkt-in-der-marienkirche/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-dessau-rosslau/adventsmarkt-auf-der-burg-rosslau/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-dessau-rosslau/mildenseer-adventsmarkt/</loc></url>
@@ -1539,7 +1533,6 @@
   <url><loc>https://festam.app/de-de/feste-in-donaueschingen/donaueschinger-musiktage/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-donaueschingen/martinimarkt-donaueschingen/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-donaueschingen/fuerstenberg-weihnachtswelt-donaueschingen/</loc></url>
-  <url><loc>https://festam.app/de-de/feste-in-donaueschingen/fuerstenberg-weihnachtswelt-donaueschingen-2/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-donauwoerth/schwaebischwerder-kindertag/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-donauwoerth/donauwoerther-kulturtage/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-donauwoerth/donauwoerther-herbstmarkt-mit-einkaufssonntag/</loc></url>
@@ -1918,7 +1911,6 @@
   <url><loc>https://festam.app/de-de/feste-in-freital/potschappler-advent/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-freudenstadt/freudenstaedter-stadtfest/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-freudenstadt/toepfermarkt-freudenstadt/</loc></url>
-  <url><loc>https://festam.app/de-de/feste-in-freudenstadt/adventsdoerfle-wittlensweiler/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-freudenstadt/freudenstaedter-weihnachtswald/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-freudenstadt/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-freyburg-unstrut/winterzauber-in-freyburg-unstrut/</loc></url>
@@ -2090,8 +2082,8 @@
   <url><loc>https://festam.app/de-de/feste-in-gladbeck/volksbank-open-air-kino/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-gladbeck/umsonst-und-draussen-musikfestival/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-gladbeck/braucker-troedelmarkt-oktober/</loc></url>
-  <url><loc>https://festam.app/de-de/feste-in-gladbeck/nikolausmarkt/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-gladbeck/zimtsternfest/</loc></url>
+  <url><loc>https://festam.app/de-de/feste-in-gladbeck/nikolausmarkt/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-glauchau/glauchauer-simson-treffen/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-glauchau/schlossherbst-und-wein/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-glauchau/glauchauer-weihnachtsmarkt/</loc></url>
@@ -2338,7 +2330,6 @@
   <url><loc>https://festam.app/de-de/feste-in-hamburg/hamburger-winterdom/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-hamburg/kunsthandwerkermarkt-im-niendorfer-buergerhaus/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-hamburg/nachtflohmarkt-in-der-gleishalle-oberhafen/</loc></url>
-  <url><loc>https://festam.app/de-de/feste-in-hamburg/oekologischer-weihnachtsmarkt-und-adventstroedel-museum-der-arbeit/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-hamburg/oekologischer-weihnachtsmarkt-im-museum-der-arbeit/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-hamburg/adventsmarkt-im-bergedorfer-schloss/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-hamburg/advent-im-museumsdorf-volksdorf/</loc></url>
@@ -2459,7 +2450,6 @@
   <url><loc>https://festam.app/de-de/feste-in-helmstedt/gaensemarkt/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-hemer/troedelmarkt-hemer/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-hemer/hemeraner-herbsttage/</loc></url>
-  <url><loc>https://festam.app/de-de/feste-in-hemer/hemeraner-weihnacht/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-hennef-sieg/stadtfest-in-hennef/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-hennef-sieg/weihnachtsmarkt-im-hennefer-zentrum/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-hennigsdorf/familienflohmarkt/</loc></url>
@@ -2805,7 +2795,6 @@
   <url><loc>https://festam.app/de-de/feste-in-kempten/kathreinemarkt/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-kerpen/kerpener-stadtfest-mit-weintagen/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-kerpen/rockcity-sindorf/</loc></url>
-  <url><loc>https://festam.app/de-de/feste-in-kerpen/kerpener-weihnachtsmarkt/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-kevelaer/wallfahrt-kevelaer/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-kevelaer/kevelaerer-lichterprozession/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-kevelaer/kirmes-in-twisteden/</loc></url>
@@ -2961,8 +2950,8 @@
   <url><loc>https://festam.app/de-de/feste-in-koeln/dellbruecker-festmeile/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-koeln/deutzer-kirmes/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-koeln/sessionseroeffnung/</loc></url>
-  <url><loc>https://festam.app/de-de/feste-in-koeln/weihnachtsbasar-auf-dem-josef-esser-platz/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-koeln/waldweihnacht-auf-gut-leidenhausen/</loc></url>
+  <url><loc>https://festam.app/de-de/feste-in-koeln/weihnachtsbasar-auf-dem-josef-esser-platz/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-koeln/deutzer-adventsklaaf/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-koeln/weihnachtsmarkt-an-der-lutherkirche/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-koenigsbrunn/koenigsbrunner-weinfest/</loc></url>
@@ -3053,7 +3042,6 @@
   <url><loc>https://festam.app/de-de/feste-in-landshut/landshuter-kunstwochenende-mit-late-night-shopping/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-landshut/spektakel-landshut-stadtspektakel/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-landshut/kunsthandwerker-und-hobbykuenstlermarkt/</loc></url>
-  <url><loc>https://festam.app/de-de/feste-in-landshut/adventsmarkt-des-buergervereins-achdorf/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-landshut/weihnachtlicher-kunsthandwerkermarkt-im-bauzunfthaus/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-landstuhl/stadtfest-landstuhl/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-landstuhl/landstuhler-advent/</loc></url>
@@ -3236,13 +3224,11 @@
   <url><loc>https://festam.app/de-de/feste-in-losheim-am-see/reiterflohmarkt-in-rissenthal/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-losheim-am-see/hausbacher-erntedankfest/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-losheim-am-see/senfmuehlenfest/</loc></url>
-  <url><loc>https://festam.app/de-de/feste-in-losheim-am-see/weihnachtsmarkt-in-der-eisenbahnhalle/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-luckau/luckauer-altstadtnacht/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-luckau/oldtimertreffen-und-teilemarkt/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-luckau/lucki-kinder-und-babysachenflohmarkt/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-luckau/altstadtweihnacht/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-luckenwalde/flohmarkt-luckenwalde/</loc></url>
-  <url><loc>https://festam.app/de-de/feste-in-luckenwalde/weihnachtsflohmarkt/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-luckenwalde/luckenwalder-maerchenweihnachtsmarkt/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-ludwigsburg/ludwigsburger-steillagentage/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-ludwigsburg/ossweiler-musikfest/</loc></url>
@@ -3299,8 +3285,8 @@
   <url><loc>https://festam.app/de-de/feste-in-luebbenau-spreewald/spreewald-und-schuetzenfest-luebbenau/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-luebbenau-spreewald/spreewaelder-lichtnaechte/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-luebbenau-spreewald/lehde-fest/</loc></url>
-  <url><loc>https://festam.app/de-de/feste-in-luebbenau-spreewald/spreewaldweihnacht-luebbenau/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-luebbenau-spreewald/kleinster-weihnachtsmarkt-im-spreewald/</loc></url>
+  <url><loc>https://festam.app/de-de/feste-in-luebbenau-spreewald/spreewaldweihnacht-luebbenau/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-luebbenau-spreewald/grosses-weihnachtssingen-in-wotschofska/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-luebbenau-spreewald/zampern-in-luebbenau/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-luebbenau-spreewald/luebbenauer-ostereiermesse/</loc></url>
@@ -3354,7 +3340,6 @@
   <url><loc>https://festam.app/de-de/feste-in-mainz/mombacher-rheinuferfest/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-mainz/hechtsheimer-kerb/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-mainz/mainz-leuchtet/</loc></url>
-  <url><loc>https://festam.app/de-de/feste-in-mainz/gonsenheimer-adventsmarkt/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-malchow/flohmarkt-rund-ums-kind/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-malchow/brueckenfest/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-malchow/malchower-adventsmarkt-und-weihnachtsstrasse/</loc></url>
@@ -3554,7 +3539,6 @@
   <url><loc>https://festam.app/de-de/feste-in-murnau-am-staffelsee/murnauer-schellenruehrer/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-murnau-am-staffelsee/volksfest-murnau/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-murnau-am-staffelsee/</loc></url>
-  <url><loc>https://festam.app/de-de/feste-in-mutlangen/adventsmarkt-des-kreativen-mutlangen/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-moeckern/bahnhofsfest-im-museumsbahnhof-magdeburgerforth/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-moeckern/schweinitzer-herbstmarkt/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-moeckern/kruessauer-herbstfest/</loc></url>
@@ -3733,7 +3717,6 @@
   <url><loc>https://festam.app/de-de/feste-in-neunkirchen-saar/dorffest-heinitz/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-neunkirchen-saar/kriminal-tango-krimifestival-neunkirchen/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-neunkirchen-saar/neunkircher-mondschein-markt/</loc></url>
-  <url><loc>https://festam.app/de-de/feste-in-neunkirchen-saar/weihnachtsmarkt-wiebelskirchen/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-neunkirchen-saar/neunkircher-hundeweihnachtsmarkt/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-neuruppin/neuruppiner-musiknacht/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-neuruppin/neuruppiner-martinimarkt/</loc></url>
@@ -3854,7 +3837,6 @@
   <url><loc>https://festam.app/de-de/feste-in-norderney/zugvogeltage/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-norderney/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-norderstedt/kunsthandwerker-und-bauernmarkt/</loc></url>
-  <url><loc>https://festam.app/de-de/feste-in-norderstedt/advents-markt-im-stadtpark/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-norderstedt/advents-markt-im-park/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-norderstedt/zipfelmuetzen-nacht/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-norderstedt/weihnachtsmarkt-der-kunsthandwerker-im-feuerwehrmuseum/</loc></url>
@@ -4167,7 +4149,7 @@
   <url><loc>https://festam.app/de-de/feste-in-pinneberg/flohmarkt-famila-pinneberg-westring/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-pinneberg/pinneberger-flohmarkt-am-westring/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-pinneberg/happy-halloween-weekend/</loc></url>
-  <url><loc>https://festam.app/de-de/feste-in-pinneberg/drosteimarkt-kreativ-kunst-und-design/</loc></url>
+  <url><loc>https://festam.app/de-de/feste-in-pinneberg/drosteimarkt-kunsthandwerk-und-design/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-pinneberg/nikolausumzug-nikolaus-prozession/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-pirmasens/mittelaltermarkt-im-strecktalpark/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-pirmasens/schlabbeflickerfestival/</loc></url>
@@ -4343,9 +4325,9 @@
   <url><loc>https://festam.app/de-de/feste-in-reichenbach-im-vogtland/mittelalterliches-burgfest-mylau/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-reichenbach-im-vogtland/kartoffelfest/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-reichenbach-im-vogtland/herbstmarkt/</loc></url>
+  <url><loc>https://festam.app/de-de/feste-in-reichenbach-im-vogtland/rotschauer-adventszauber/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-reichenbach-im-vogtland/schneidenbacher-pyramidenanschubsen/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-reichenbach-im-vogtland/weihnachtsmarkt-in-friesen/</loc></url>
-  <url><loc>https://festam.app/de-de/feste-in-reichenbach-im-vogtland/rotschauer-adventszauber/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-reinbek/adventsbasar/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-reinbek/reinbeker-weihnachtsmarkt/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-reit-im-winkl/begehbarer-adventskalender/</loc></url>
@@ -4515,7 +4497,7 @@
   <url><loc>https://festam.app/de-de/feste-in-ruhpolding/ride-the-moto-festival/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-ruhpolding/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-ruppertshofen/weinfest-tc-ruppertshofen/</loc></url>
-  <url><loc>https://festam.app/de-de/feste-in-ruppertshofen/ruppertshofer-adventsmarkt/</loc></url>
+  <url><loc>https://festam.app/de-de/feste-in-ruppertshofen/weihnachtsmarkt-ruppertshofen/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-roebel-mueritz/roewelscher-wiehnachtsmarkt/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-roebel-mueritz/saisoneroeffnung-roebel-mueritz/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-roebel-mueritz/seefest-roebel-mueritz/</loc></url>
@@ -4860,7 +4842,6 @@
   <url><loc>https://festam.app/de-de/feste-in-sigmaringen/fest-der-kulturen/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-sigmaringen/martinimarkt/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-sigmaringen/sigmaringer-weihnachtsmarkt/</loc></url>
-  <url><loc>https://festam.app/de-de/feste-in-sigmaringen/weihnachtsmarkt-auf-dem-karlsplatz/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-simmern-hunsrueck/vino-in-vertico/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-simmern-hunsrueck/simmerner-stadtfest-und-herbstmarkt/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-simmern-hunsrueck/martinimarkt/</loc></url>
@@ -4991,7 +4972,6 @@
   <url><loc>https://festam.app/de-de/feste-in-stavenhagen/kultur-und-lichternacht/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-stavenhagen/weihnachtsmarkt/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-stassfurt/tag-der-regionen/</loc></url>
-  <url><loc>https://festam.app/de-de/feste-in-stassfurt/hohenerxlebener-weihnachtsmarkt/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-steinau-an-der-strasse/steinauer-puppenspieltage/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-steinau-an-der-strasse/katharinenmarkt/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-steinau-an-der-strasse/weihnachtsmarkt/</loc></url>
@@ -5031,8 +5011,8 @@
   <url><loc>https://festam.app/de-de/feste-in-stuttgart/herbstival/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-stuttgart/scilla-strassenfest/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-stuttgart/kirchweih-degerloch/</loc></url>
-  <url><loc>https://festam.app/de-de/feste-in-stuttgart/moehringer-christkindlesmarkt/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-stuttgart/vaihinger-weihnachtsmarkt/</loc></url>
+  <url><loc>https://festam.app/de-de/feste-in-stuttgart/moehringer-christkindlesmarkt/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-stuttgart/weilimdorfer-weihnachtsmarkt/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-stuttgart/hobby-kuenstler-weihnachtsmarkt/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-stuttgart/feuerbacher-weihnachtsmarkt/</loc></url>
@@ -5264,7 +5244,6 @@
   <url><loc>https://festam.app/de-de/feste-in-vechta/stoppelmarkt/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-vechta/herbstkirmes-langfoerden/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-vechta/thomasmarkt/</loc></url>
-  <url><loc>https://festam.app/de-de/feste-in-vechta/weihnachtsmarkt-langfoerden/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-velbert/tropical-beat-und-eat-festival-velbert/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-velbert/parkfest-im-herminghauspark/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-velbert/velberter-herbstkirmes/</loc></url>
@@ -5310,12 +5289,10 @@
   <url><loc>https://festam.app/de-de/feste-in-vreden/vreden-singt/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-voelklingen/warndt-wein-wanderung/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-voelklingen/voelklinger-mondscheinmarkt/</loc></url>
-  <url><loc>https://festam.app/de-de/feste-in-voelklingen/luisenthaler-weihnachtsmarkt/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-waiblingen/waiblingen-erfrischt/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-waiblingen/sommernachtskino-waiblingen/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-waiblingen/riesenflohmarkt-in-waiblingen/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-waiblingen/martinimarkt/</loc></url>
-  <url><loc>https://festam.app/de-de/feste-in-waiblingen/waiblinger-weihnachtsmarkt-sternstunden/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-waldkirch/oktoberfest-kollnau/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-waldkirch/weihnachtsmarkt-im-elztalmuseum/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-waldkirch/winter-opening-waldkirch/</loc></url>
@@ -5415,7 +5392,6 @@
   <url><loc>https://festam.app/de-de/feste-in-wedel/wedeler-herbstmarkt/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-wedel/mittelalterliches-handelskontor-zu-wedel/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-wedel/weihnachtsmarkt-am-roland/</loc></url>
-  <url><loc>https://festam.app/de-de/feste-in-wedel/wedeler-weihnachtsmarkt-am-roland/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-weener/hafenmarkt-september/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-weener/hobby-und-kreativmarkt/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-weener/michaelismarkt/</loc></url>
@@ -5519,7 +5495,7 @@
   <url><loc>https://festam.app/de-de/feste-in-westerstede/christkindls-kloevermarkt/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-westhausen/sommerfest-in-westerhofen/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-westhausen/dorffest-reichenbach-rcv/</loc></url>
-  <url><loc>https://festam.app/de-de/feste-in-westhausen/offenes-adventssingen-am-rathausplatz/</loc></url>
+  <url><loc>https://festam.app/de-de/feste-in-westhausen/offenes-adventssingen/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-westhausen/nikolausmarkt/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-westhausen/hirtennacht/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-wetzlar/sommernachtsweinfest/</loc></url>
@@ -5686,7 +5662,6 @@
   <url><loc>https://festam.app/de-de/feste-in-wurster-nordseekueste/weihnachtsmarkt-am-heimathaus-midlum/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-wurster-nordseekueste/es-wird-weihnachtlich-auf-dem-hof-olendiek/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-wurster-nordseekueste/weihnachtsmarkt-misselwarden/</loc></url>
-  <url><loc>https://festam.app/de-de/feste-in-wurster-nordseekueste/weihnachtsmarkt-wremen/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-wurster-nordseekueste/kleiner-weihnachtsmarkt-auf-dem-friesenhof-dorum/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-wurster-nordseekueste/krabbentag-wremen/</loc></url>
   <url><loc>https://festam.app/de-de/feste-in-wurster-nordseekueste/deichbrand-festival/</loc></url>
